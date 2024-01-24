@@ -14,6 +14,8 @@ c --common blocks declaration:
       INCLUDE 'potential.inc'
       INCLUDE 'system.inc'
  
+! ioout 6 is the outfile
+
       WRITE (6, *) '**************** MC_NPT ***************'
 c     ---initialize sysem
       CALL READDAT(equil, prod, nsamp, ndispl, dr, nvol, vmax, nswap, 
@@ -73,6 +75,9 @@ c              ---adjust maximum displacements
                CALL ADJUST(attempt, nacc, dr, attv, accv, vmax, succ)
             END IF
          END DO
+
+!  end of MC 
+
          IF (ncycl.NE.0) THEN
             IF (attempt.NE.0) WRITE (6, 99003) attempt, nacc, 
      &                               100.*FLOAT(nacc)/FLOAT(attempt)
@@ -101,6 +106,9 @@ c           ---calculation chemical potential
       CALL STORE(21, dr, vmax)
       STOP
  
+
+! write end data
+
 99001 FORMAT (' box : ', i3, /, 
      &        ' Total energy initial configuration : ', f12.5, /, 
      &        ' Total virial initial configuration : ', f12.5)

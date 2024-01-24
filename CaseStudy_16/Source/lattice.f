@@ -1,5 +1,9 @@
 **==lattice.spg  processed by SPAG 4.52O  at 18:10 on 19 Jul 1996
- 
+
+! put particles in an latice
+! number of particles must be even and > 0
+! fcc structure is face centered structure (extra partcie in middel of all sides of a cubic latice)
+
       SUBROUTINE LATTICE(Struc)
 c     ---place `npart' particles on a lattice with density 'rho'
 c      --half the number in box 1 and the other half in box 2

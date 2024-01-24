@@ -1,0 +1,6 @@
+set terminal "png"
+set output "test.png"
+set ylabel 'Density {/Symbol r}'
+set xlabel 'Number of cycles Ncycl'
+set key left top Left box
+plot "lj.prt" using 1:6, "lj.prt" using 1:7

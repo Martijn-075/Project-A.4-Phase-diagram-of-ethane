@@ -15,7 +15,7 @@ c     attempts to change the volume
       Attempt = Attempt + 1
 c     ---calulate new volume by making random walk in ln V
 ! volo = volume old configruation
-! voln = volume new nonfiguration
+! voln = volume new nonfiguration d
       volo(1) = BOX(1)**3
       volo(2) = BOX(2)**3
       volt = volo(1) + volo(2)

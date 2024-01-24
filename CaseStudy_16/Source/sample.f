@@ -17,13 +17,16 @@ c     writes quantities to file
          press(ib) = rho(ib)/BETA + Vir(ib)/(3.D0*vol)
          IF (TAILCO) press(ib) = press(ib) + CORP(RC(ib), rho(ib))
          IF (NPBOX(ib).NE.0) THEN
+            ! DBLE is fucntion to convert to dubble precision
             enp(ib) = En(ib)/DBLE(NPBOX(ib))
          ELSE
             enp(ib) = 0.D0
          END IF
       END DO
+! io 66 is lj.prt
       WRITE (66, *) I, SNGL(enp(1)), SNGL(enp(2)), SNGL(press(1)), 
      &              SNGL(press(2)), SNGL(rho(1)), SNGL(rho(2))
+! io 44 is lj.xy
       WRITE (44, '(2(i6,f10.2))') NPBOX(1), BOX(1)**3, NPBOX(2), BOX(2)
      &                            **3
       RETURN

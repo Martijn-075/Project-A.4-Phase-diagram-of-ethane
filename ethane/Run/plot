@@ -1,0 +1,23 @@
+set terminal "png"
+set key left top Left box
+
+set output "rho.png"
+set xrange[0:*]
+set yrange[0:0.8]
+set ylabel 'Density {/Symbol r}'
+set xlabel 'Number of cycles Ncycl'
+plot "lj.prt" using 1:6 title "Box 1" smooth cspl with li lt 3 lw 3, "lj.prt" using 1:7 title "Box 2" smooth cspl with li lt 4 lw 3
+
+set output "pressure.png"
+set xrange[*:*]
+set yrange[*:*]
+set ylabel 'pressure P'
+set xlabel 'Number of cycles Ncycl'
+plot "lj.prt" using 1:4 title "Box 1" smooth cspl with li lt 3 lw 3, "lj.prt" using 1:5 title "Box 2" smooth cspl with li lt 4 lw 3
+
+set output "energyparticle.png"
+set xrange[*:*]
+set yrange[*:*]
+set ylabel 'Energy per particle E'
+set xlabel 'Number of cycles Ncycl'
+plot "lj.prt" using 1:2 title "Box 1" smooth cspl with li lt 3 lw 3, "lj.prt" using 1:3 title "Box 2" smooth cspl with li lt 4 lw 3

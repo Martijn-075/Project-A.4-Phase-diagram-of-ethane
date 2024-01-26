@@ -2,6 +2,7 @@
       SUBROUTINE ADJUST(Attemp, Nacc, Dr, Attv, Accv, Vmax, Succ)
 c     sets maximum displacement and maximum volume change
 c     such that 50% of the move will be accepted
+!  set with the succ
       IMPLICIT NONE
       INCLUDE 'system.inc'
       INTEGER Attemp, Nacc, attempp, naccp, accvp, Attv, Accv, attvp
@@ -9,17 +10,21 @@ c     such that 50% of the move will be accepted
       SAVE naccp, attempp, attvp, accvp
  
 c     ---displacement:
+! first cycle
       IF (Attemp.EQ.0.OR.attempp.GE.Attemp) THEN
          naccp = Nacc
          attempp = Attemp
+! not first cycle
       ELSE
          frac = DBLE(Nacc-naccp)/DBLE(Attemp-attempp)
          dro = Dr
          Dr = Dr*ABS(frac/(Succ/100.D0))
 c        ---limit the change:
+! if the chnage in Dr is +- 50% then it is accepted
          IF (Dr/dro.GT.1.5D0) Dr = dro*1.5D0
          IF (Dr/dro.LT.0.5D0) Dr = dro*0.5D0
          IF (Dr.GT.HBOX(1)/2.D0) Dr = HBOX(1)/2.D0
+      !    io 6 is the out file
          WRITE (6, 99001) Dr, dro, frac, Attemp - attempp, Nacc - naccp
 c        ---store nacc and attemp for next use
          naccp = Nacc
@@ -33,6 +38,7 @@ c     ---volume:
          frac = DBLE(Accv-accvp)/DBLE(Attv-attvp)
          vmaxo = Vmax
          Vmax = Vmax*ABS(frac/(Succ/100.D0))
+! if the change in dv is +- 50% then the new dv is accepted
 c        ---limit the change:
          IF (Vmax/vmaxo.GT.1.5D0) Vmax = vmaxo*1.5D0
          IF (Vmax/vmaxo.LT.0.5D0) Vmax = vmaxo*0.5D0

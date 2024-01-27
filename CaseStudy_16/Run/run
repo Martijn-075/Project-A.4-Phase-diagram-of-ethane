@@ -5,7 +5,7 @@ foreach temp (1.2 )
   echo " --- temp ${temp} "  	>> out
   cat > fort.15  <<endofdata
   ibeg  , nequil  , lmax   nsamp  iseed
-   0      200      50000     1    48573478
+   0      200      10000     1    48573478
   dr      vmax  succ
   0.09    0.01   50.
   ndispl  nvol nswap
@@ -22,9 +22,9 @@ endofdata
  mv fort.66		lj.prt
  cat fort.44     >>		lj.xy
  #perform block analysis
-  cp lj.prth		fort.31
-  mv  lj.prt		fort.32
- ../Block/block    >>	out 
+#   cp lj.prth		fort.31
+#   mv  lj.prt		fort.32
+#  ../Block/block    >>	out 
  rm fort.*
 end
 exit

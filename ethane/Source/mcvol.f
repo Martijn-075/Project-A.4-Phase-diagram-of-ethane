@@ -34,9 +34,9 @@ c     ---determine new coordinates
 ! Resacle postion using the scaling factor f
       DO i = 1, NPART
          idi = ID(i)
-         X(i) = f(idi)*X(i)
-         Y(i) = f(idi)*Y(i)
-         Z(i) = f(idi)*Z(i)
+         X(i,:) = f(idi)*X(i,:)
+         Y(i,:) = f(idi)*Y(i,:)
+         Z(i,:) = f(idi)*Z(i,:)
       END DO
       IF (.NOT.SHIFT) THEN
 c        ---calculate new energy using scaling
@@ -91,9 +91,9 @@ c        ---restore the old configuration
          END DO
          DO i = 1, NPART
             idi = ID(i)
-            X(i) = f(idi)*X(i)
-            Y(i) = f(idi)*Y(i)
-            Z(i) = f(idi)*Z(i)
+            X(i,:) = f(idi)*X(i,:)
+            Y(i,:) = f(idi)*Y(i,:)
+            Z(i,:) = f(idi)*Z(i,:)
          END DO
       END IF
       RETURN

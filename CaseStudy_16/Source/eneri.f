@@ -11,26 +11,32 @@ c
       En = 0.D0
       Vir = 0.D0
       DO j = Jb, NPART
+         ! if in the same box
          IF (ID(j).EQ.Ib) THEN
             IF (j.NE.I) THEN
                dx = Xi - X(j)
                dy = Yi - Y(j)
                dz = Zi - Z(j)
+               ! check dx
                IF (dx.GT.HBOX(Ib)) THEN
                   dx = dx - BOX(Ib)
                ELSE
                   IF (dx.LT.-HBOX(Ib)) dx = dx + BOX(Ib)
                END IF
+               ! check dy
                IF (dy.GT.HBOX(Ib)) THEN
                   dy = dy - BOX(Ib)
                ELSE
                   IF (dy.LT.-HBOX(Ib)) dy = dy + BOX(Ib)
                END IF
+               ! check dz
                IF (dz.GT.HBOX(Ib)) THEN
                   dz = dz - BOX(Ib)
                ELSE
                   IF (dz.LT.-HBOX(Ib)) dz = dz + BOX(Ib)
                END IF
+
+               !actual r2 calcuation and energy
                r2 = dx*dx + dy*dy + dz*dz
                CALL ENER(enij, virij, r2, Ib)
                En = En + enij

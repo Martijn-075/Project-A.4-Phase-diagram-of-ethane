@@ -5,7 +5,7 @@ C     reads input data and model parameters
 c
 c     ---input parameters: file: fort.15
 c    ibeg  =  0 : initilaize from a lattice
-c             1 : read configuration from disk
+c             1 : read configuration from disk not working!!!!!!!!
 c    Equil      : number of Monte Carlo cycles during equilibration
 c    Prod       : number of Monte Carlo cycles during production
 c    Nsamp      : number of Monte Carlo cycles between two sampling periods
@@ -36,6 +36,8 @@ c    eps    = epsilon Lennard-Jones potential
 c    sig    = sigma Lennard-Jones potential
 c    MASS   = mass of the particle
 c    rcc    = cut-off radius of the potential
+!     chainlength = the lenght of the chain to be simualted (1,2)
+!     optbondlength = the optimal bond length of the c-c bond in the chain
 c
 c     ---input parameters: file: fort.11 (restart file
 c                to continue a simulation from disk)
@@ -53,19 +55,25 @@ c                  ,ID(1)   = 1 particle in box 1
 c                  ,ID(1)   = 2 particle in box 2
 c       ....
 c    X(NPART),Y(NPART),Z(NPART): position particle last particle
+!      struc  = structure of the to be genereted start strcuture
+!     latdirection = only aplicable for chains sets the direction of the chain (x, y, z, r) r = random 
+!     bondtype = only aplicable for chains the type of bond to be used (fixed or harmp) 
+!     fixed is fixed length at ideal bond length and harmo is an harmonic potential
+
       IMPLICIT NONE
       INCLUDE 'parameter.inc'
       INCLUDE 'system.inc'
       INCLUDE 'potential.inc'
       INCLUDE 'conf.inc'
       INCLUDE 'npt.inc'
-      INTEGER ibeg, Equil, Prod, i, Ndispl, Nsamp, Nvol, Iseed, ib, 
+
+      INTEGER ibeg, Equil, Prod, Ndispl, Nsamp, Nvol, Iseed, ib, 
      &        Nswap
       DOUBLE PRECISION eps, sig, CORU, CORP, vir, rho, Dr, Vmax, Succ, 
      &                 rcc
-      CHARACTER struc*3
+      CHARACTER struc*3, latdirection
  
-!  red config from run file 
+!  read config from run file 
 c     ---read simulation data
       READ (15, *)
       READ (15, *) ibeg, Equil, Prod, Nsamp, Iseed
@@ -74,7 +82,7 @@ c     ---read simulation data
       READ (15, *)
       READ (15, *) Ndispl, Nvol, Nswap
       READ (15, *)
-      READ (15, *) NPART, TEMP, rho, P, struc
+      READ (15, *) NPART, TEMP, rho, P, struc, latdirection, bondtype
 c     ---initialise and test random number generator
       CALL RANTEST(Iseed)
  
@@ -88,26 +96,39 @@ c     ---read model parameters
       READ (25, *) TAILCO, SHIFT
       READ (25, *)
       READ (25, *) eps, sig, MASS, rcc
+      ! added reading in chanlentgh and optimal bond length from lj.model
+      READ (25, *)
+      READ (25, *) chainlength, optbondlength, ntrialor
+
 c     ---read/generate configuration
       BOX(1) = (NPART/(2*rho))**(1.D00/3.D00)
       HBOX(1) = 0.5D00*BOX(1)
       BOX(2) = BOX(1)
       HBOX(2) = HBOX(1)
       
+!     check if an hrmonic potential or fixed bond lenght is used (only for chains longer than 1)
+      if (chainlength .gt. 1) then
+            if (bondtype .eq. "harmp") then
+
+            else 
+                  rchain = optbondlength
+            end if
+      end if
+
 ! checks if a latice form disk should be read otherwise cubic or face centered cubic latice is generetaed via subroutine latice
 
       IF (ibeg.EQ.0) THEN
 c        ---generate configuration form lattice
-         CALL LATTICE(struc)
+         CALL LATTICE(struc, latdirection, iseed)
       ELSE
-         WRITE (6, *) ' read conf from disk '
-         READ (11, *) BOX(1), HBOX(1), BOX(2), HBOX(2)
-         READ (11, *) NPART, NPBOX(1), NPBOX(2)
-         READ (11, *) Dr, Vmax
-         DO i = 1, NPART
-            READ (11, *) X(i), Y(i), Z(i), ID(i)
-         END DO
-         REWIND (11)
+         WRITE (6, *) ' read conf from disk is not yet suported'
+      !    READ (11, *) BOX(1), HBOX(1), BOX(2), HBOX(2)
+      !    READ (11, *) NPART, NPBOX(1), NPBOX(2)
+      !    READ (11, *) Dr, Vmax
+      !    DO i = 1, NPART
+      !       READ (11, *) X(i), Y(i), Z(i), ID(i)
+      !    END DO
+      !    REWIND (11)
       END IF
 c     ---write input data
       WRITE (6, 99001) Equil, Prod, Nsamp

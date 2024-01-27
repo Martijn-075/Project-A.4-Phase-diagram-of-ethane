@@ -1,11 +1,12 @@
-**==store.spg  processed by SPAG 4.52O  at 18:10 on 19 Jul 1996
+! *==store.spg  processed by SPAG 4.52O  at 18:10 on 19 Jul 1996
       SUBROUTINE STORE(Iout, Dr, Vmax)
 c     writes configuration to disk
       IMPLICIT NONE
       INCLUDE 'parameter.inc'
       INCLUDE 'conf.inc'
       INCLUDE 'system.inc'
-      INTEGER Iout, i
+      INCLUDE "potential.inc"
+      INTEGER Iout, i, j
       DOUBLE PRECISION Dr, Vmax
  
 
@@ -18,7 +19,10 @@ c     writes configuration to disk
       WRITE (Iout, *) Dr, Vmax
       write (iout, *) "X, Y, Z, box id"
       DO i = 1, NPART
-         WRITE (Iout, *) X(i), Y(i), Z(i), ID(i)
+            do j = 1, chainlength
+                  WRITE (Iout, *) X(i,j), Y(i,j), Z(i,j), ID(i), i
+            end do
+
       END DO
       REWIND (Iout)
       RETURN

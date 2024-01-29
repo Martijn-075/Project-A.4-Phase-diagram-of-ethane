@@ -13,7 +13,7 @@ c      --half the number in box 1 and the other half in box 2
       INCLUDE 'system.inc'
       INCLUDE "potential.inc"
       INTEGER i, j, k, itel, n, ib, l, iseed
-      DOUBLE PRECISION del, RANF
+      DOUBLE PRECISION del, RANF, rand
       CHARACTER Struc*3, latdirection
  
       del = (BOX(1)**3)**(1.D0/3.D0)
@@ -102,14 +102,15 @@ c        ---put particels on a simple cubic lattice
                                  if (Z(itel, l) .gt. box(1)) Z(itel, l) 
      &                           = Z(itel, l) - 2 * optbondlength
                               else
+                                 rand = RANF(iseed)
                                  X(itel,l) = X(itel,l-1) +
-     &                           (optbondlength*SIN(RANF(iseed) * PI) 
-     &                           * COS(RANF(iseed) * 2 * PI))
+     &                           (optbondlength*SIN(rand * PI) 
+     &                           * COS(rand * 2 * PI))
                                  Y(itel,l) = Y(itel,l-1) + 
-     &                           (optbondlength*SIN(RANF(iseed) 
-     &                           * PI)*SIN(RANF(iseed)*2*PI))
+     &                           (optbondlength*SIN(rand 
+     &                           * PI)*SIN(rand*2*PI))
                                  Z(itel,l) = Z(itel,l-1) +
-     &                           (optbondlength*COS(RANF(iseed) * PI))
+     &                           (optbondlength*COS(rand * PI))
 
                                  if (X(itel, l) .gt. box(1)) X(itel, l) 
      &                           = X(itel, l) - 2 * optbondlength

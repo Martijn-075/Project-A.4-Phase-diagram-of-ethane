@@ -22,9 +22,10 @@ endofdata
  mv fort.66		lj.prt
  cat fort.44     >>		lj.xy
  #perform block analysis
-#   cp lj.prth		fort.31
-#   mv  lj.prt		fort.32
-#  ../Block/block    >>	out 
+   cp lj.prt data
+  cp lj.prth		fort.31
+  mv  lj.prt		fort.32
+ ../Block/block    >>	out 
  rm fort.*
 end
 exit

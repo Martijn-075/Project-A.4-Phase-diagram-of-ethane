@@ -25,7 +25,8 @@ c     writes quantities to file
       END DO
 ! io 66 is lj.prt
       WRITE (66, *) I, SNGL(enp(1)), SNGL(enp(2)), SNGL(press(1)), 
-     &              SNGL(press(2)), SNGL(rho(1)), SNGL(rho(2))
+     &              SNGL(press(2)), SNGL(rho(1)), SNGL(rho(2)),
+     &              en(1), en(2), NPBOX(1), NPBOX(2)
 ! io 44 is lj.xy
       WRITE (44, '(2(i6,f10.2))') NPBOX(1), BOX(1)**3, NPBOX(2), BOX(2)
      &                            **3

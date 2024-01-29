@@ -1,8 +1,8 @@
 tailco  shift
-.true.  .false.
+.true.  .true.
 eps sig  mass  r.c
 1.  1.   1.    250000
 chainlength     optbondlength   n trail orientations
-2               1.              10
+2               1.              5
 
 

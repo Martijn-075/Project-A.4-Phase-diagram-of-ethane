@@ -8,7 +8,7 @@ c     attempts to displace a randomly selected particle
       INCLUDE "potential.inc"
       DOUBLE PRECISION enn, eno, En, RANF, xn(chainlength),
      &                 yn(chainlength), zn(chainlength), 
-     &                 viro, virn, Dr, Vir
+     &                 viro, virn, Dr, Vir, ro, rn
       DIMENSION En(*), Vir(*)
       INTEGER o, Attempt, Nacc, jb, Iseed, ido, i
  
@@ -35,7 +35,6 @@ c        --accepted
          En(ido) = En(ido) + (enn-eno)
          Vir(ido) = Vir(ido) + (virn-viro)
 c        ---put particle in simulation box
-
             do i = 1, chainlength
                   IF (xn(i).LT.0.) xn(i) = xn(i) + BOX(ido)
                   IF (xn(i).GT.BOX(ido)) xn(i) = xn(i) - BOX(ido)

@@ -41,6 +41,7 @@ OBJS	      = adjust.o \
 		mcmove.o \
 		mcswap.o \
 		mcvol.o \
+		mcrot.o \
 		ranf.o \
 		rantest.o \
 		readdat.o \
@@ -71,6 +72,7 @@ SRCS	      = adjust.f \
 		mcmove.f \
 		mcswap.f \
 		mcvol.f \
+		mcrot.f \
 		ranf.f \
 		rantest.f \
 		readdat.f \

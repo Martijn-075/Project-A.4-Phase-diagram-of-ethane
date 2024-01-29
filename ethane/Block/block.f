@@ -108,8 +108,8 @@ c
  
 99001 FORMAT (i10, 30(e12.4))
 99002 FORMAT (1x, i9, 30(1x,f8.4))
-99003 FORMAT (' ######', 1x, a6, 2x, f16.8, '   ', f16.8)
-99004 FORMAT (' block data ', 1x, i4, 30(1x,f10.6))
+99003 FORMAT (' ######', 1x, a6, 2x, e16.8, '   ', e16.8)
+99004 FORMAT (' block data ', 1x, i4, 30(1x,e10.6))
       END
  
  

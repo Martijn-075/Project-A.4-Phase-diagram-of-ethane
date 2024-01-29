@@ -1,6 +1,6 @@
 **==readdat.spg  processed by SPAG 4.52O  at 18:10 on 19 Jul 1996
       SUBROUTINE READDAT(Equil, Prod, Nsamp, Ndispl, Dr, Nvol, Vmax, 
-     &                   Nswap, Iseed, Succ)
+     &                   Nswap, Iseed, Succ, Nrot)
 C     reads input data and model parameters
 c
 c     ---input parameters: file: fort.15
@@ -68,7 +68,7 @@ c    X(NPART),Y(NPART),Z(NPART): position particle last particle
       INCLUDE 'npt.inc'
 
       INTEGER ibeg, Equil, Prod, Ndispl, Nsamp, Nvol, Iseed, ib, 
-     &        Nswap
+     &        Nswap, Nrot
       DOUBLE PRECISION eps, sig, CORU, CORP, vir, rho, Dr, Vmax, Succ, 
      &                 rcc
       CHARACTER struc*3, latdirection
@@ -80,7 +80,7 @@ c     ---read simulation data
       READ (15, *)
       READ (15, *) Dr, Vmax, Succ
       READ (15, *)
-      READ (15, *) Ndispl, Nvol, Nswap
+      READ (15, *) Ndispl, Nvol, Nswap, Nrot
       READ (15, *)
       READ (15, *) NPART, TEMP, rho, P, struc, latdirection, bondtype
 c     ---initialise and test random number generator

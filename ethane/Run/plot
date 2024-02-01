@@ -3,14 +3,22 @@ set key left top Left box
 
 set output "rho.png"
 set xrange[0:*]
+<<<<<<< HEAD
 set yrange[*:*]
+=======
+set yrange[0:0.8]
+>>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
 set ylabel 'Density {/Symbol r}'
 set xlabel 'Number of cycles Ncycl'
 plot "data" using 1:6 title "Box 1" smooth cspl with li lt 3 lw 3, "data" using 1:7 title "Box 2" smooth cspl with li lt 4 lw 3
 
 set output "pressure.png"
 set xrange[*:*]
+<<<<<<< HEAD
 set yrange[*:*]
+=======
+set yrange[-10:10]
+>>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
 set ylabel 'pressure P'
 set xlabel 'Number of cycles Ncycl'
 plot "data" using 1:4 title "Box 1" smooth cspl with li lt 3 lw 3, "data" using 1:5 title "Box 2" smooth cspl with li lt 4 lw 3

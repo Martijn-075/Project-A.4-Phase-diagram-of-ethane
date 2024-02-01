@@ -1,16 +1,22 @@
 tailco  shift
 <<<<<<< HEAD
+<<<<<<< HEAD
 .true.  .false.
 eps sig  mass  r.c
 147.9  3.775   30.    14.
 chainlength     optbondlength   n trail orientations
 2               1.55              16
 =======
+=======
+>>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
 .true.  .true.
 eps sig  mass  r.c
 1.  1.   1.    250000
 chainlength     optbondlength   n trail orientations
 2               1.              5
+<<<<<<< HEAD
+>>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
+=======
 >>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
 
 

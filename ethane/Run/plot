@@ -4,7 +4,11 @@ set key left top Left box
 set output "rho.png"
 set xrange[0:*]
 <<<<<<< HEAD
+<<<<<<< HEAD
 set yrange[*:*]
+=======
+set yrange[0:0.8]
+>>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
 =======
 set yrange[0:0.8]
 >>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
@@ -15,7 +19,11 @@ plot "data" using 1:6 title "Box 1" smooth cspl with li lt 3 lw 3, "data" using 
 set output "pressure.png"
 set xrange[*:*]
 <<<<<<< HEAD
+<<<<<<< HEAD
 set yrange[*:*]
+=======
+set yrange[-10:10]
+>>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
 =======
 set yrange[-10:10]
 >>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7

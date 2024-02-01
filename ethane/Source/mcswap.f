@@ -60,8 +60,6 @@ c     ---calculate energy of this particle
             ! of a trial insertion is equeal
             do k = 1,ntrialor
                   ! random on a sphere
-<<<<<<< HEAD
-<<<<<<< HEAD
                   rand = RANF(iseed)
                   xk(k) = xn(1) + optbondlength * 
      &            sin(rand * PI) * 
@@ -71,21 +69,7 @@ c     ---calculate energy of this particle
      &            sin(rand * 2.D0 * PI)
                   zk(k) = zn(1) + optbondlength * 
      &            cos(rand * PI)
-=======
-=======
->>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
-                  xk(k) = xn(1) + optbondlength * 
-     &            sin(RANF(iseed) * PI) * 
-     &            cos(RANF(iseed) * 2.D0 * PI)
-                  yk(k) = yn(1) + optbondlength * 
-     &             sin(RANF(iseed) * PI) * 
-     &            sin(RANF(iseed) * 2.D0 * PI)
-                  zk(k) = zn(1) + optbondlength * 
-     &            cos(RANF(iseed) * PI)
-<<<<<<< HEAD
->>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
-=======
->>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
+
 
                   CALL ENERI(xk(k), yk(k), zk(k), o, jb,
      &                 enk(k) ,virn, iadd, 1)
@@ -196,20 +180,12 @@ c     ---calculate contibution to the chemical potential:
      &            enk(k),virn, idi, 1)
                   enk(k) = enk(k) + enkfirst
 
-<<<<<<< HEAD
-<<<<<<< HEAD
                   if (enk(k) .lt. 200.D0) then
                         rbo(k) = exp(-1.D0 * BETA * enk(k))
                   else
                         rbo(k) = 0.D0
                   end if
                   
-=======
-                  rbo(k) = exp(-1.D0 * BETA * enk(k))
->>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
-=======
-                  rbo(k) = exp(-1.D0 * BETA * enk(k))
->>>>>>> ecf5840b54e9e69ae5125152c9fbc3a39cd297e7
                   rosenblutho = rosenblutho + rbo(k)
             end do
       else

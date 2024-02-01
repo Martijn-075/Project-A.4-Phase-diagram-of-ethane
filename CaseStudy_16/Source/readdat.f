@@ -65,7 +65,7 @@ c    X(NPART),Y(NPART),Z(NPART): position particle last particle
      &                 rcc
       CHARACTER struc*3
  
- 
+!  red config from run file 
 c     ---read simulation data
       READ (15, *)
       READ (15, *) ibeg, Equil, Prod, Nsamp, Iseed
@@ -82,6 +82,7 @@ c     ---initialise and test random number generator
          WRITE (6, *) ' ERROR: number of particles too large'
          STOP
       END IF
+!  reads config from lj.model file
 c     ---read model parameters
       READ (25, *)
       READ (25, *) TAILCO, SHIFT
@@ -92,6 +93,9 @@ c     ---read/generate configuration
       HBOX(1) = 0.5D00*BOX(1)
       BOX(2) = BOX(1)
       HBOX(2) = HBOX(1)
+      
+! checks if a latice form disk should be read otherwise cubic or face centered cubic latice is generetaed via subroutine latice
+
       IF (ibeg.EQ.0) THEN
 c        ---generate configuration form lattice
          CALL LATTICE(struc)

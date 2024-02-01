@@ -1,0 +1,2899 @@
+ --- temp 0. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :       200
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :         2
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        10
+
+
+  Number of particles                        :       512
+  Temperature                                :     0.000
+  Pressure                                   :    32.000
+  Density box 1                              :     0.320
+  Box 1 length                               :     9.283
+  Density box 1                              :     0.320
+  Box 2 length                               :     9.283
+
+  Model parameters: 
+     epsilon: 1.000
+     sigma  : 1.000
+     mass   : 1.000
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ box :   1
+ Total energy initial configuration :  0.35313E+13
+ Total virial initial configuration :  0.42376E+14
+ box :   2
+ Total energy initial configuration :  0.35313E+13
+ Total virial initial configuration :  0.42376E+14
+  Start equilibration 
+ ======>> Done          200  out of         1000         248         264
+ Max. displ. set to      :  0.065 (old :  0.090)
+ Frac. acc.: 0.36 attempts:   20552 succes:    7377
+ Max. vol. chan. set to:  0.007 (old :  0.010)
+ Frac. acc.: 0.37 attempts:     179 succes:      67
+ ======>> Done          400  out of         1000         245         267
+ Max. displ. set to      :  0.032 (old :  0.065)
+ Frac. acc.: 0.23 attempts:   20542 succes:    4818
+ Max. vol. chan. set to:  0.004 (old :  0.007)
+ Frac. acc.: 0.26 attempts:     230 succes:      60
+ ======>> Done          600  out of         1000         244         268
+ Max. displ. set to      :  0.019 (old :  0.032)
+ Frac. acc.: 0.29 attempts:   20485 succes:    5901
+ Max. vol. chan. set to:  0.003 (old :  0.004)
+ Frac. acc.: 0.40 attempts:     200 succes:      80
+ ======>> Done          800  out of         1000         247         265
+ Max. displ. set to      :  0.013 (old :  0.019)
+ Frac. acc.: 0.35 attempts:   20594 succes:    7112
+ Max. vol. chan. set to:  0.003 (old :  0.003)
+ Frac. acc.: 0.49 attempts:     204 succes:      99
+ ======>> Done         1000  out of         1000         246         266
+ Max. displ. set to      :  0.010 (old :  0.013)
+ Frac. acc.: 0.37 attempts:   20378 succes:    7577
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.36 attempts:     205 succes:      73
+ Number of att. to displ. a part.  :     102551
+ success:      32785(= 31.97%)
+ Number of att. to chan. volume    :       1018
+ success:        379(= 37.23%)
+ Number of att. to exchange part.  :       5137
+ success:        196(=  3.82%)
+ Number of att. to rotate chain    :     103294
+ success:       3106(=  3.01%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   :  -2131.76725
+       running energy             : -0.21316E+04
+       difference                 :  -0.17611E+00
+ Total virial end of simulation   : -0.55463E+04
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+       running virial             :  0.16796E+10
+       difference                 :  -0.16796E+10
+  ######### PROBLEMS ENERGY ################ 
+ box :   2
+ Total energy end of simulation   :  -2517.99363
+       running energy             : -0.25182E+04
+       difference                 :   0.20322E+00
+ Total virial end of simulation   : -0.54464E+04
+       running virial             : -0.54464E+04
+       difference                 :   0.34106E-09
+ chemical potentials : 
+ number of samples :          186
+ box 1     NaN
+ box 2     NaN
+
+  Start production 
+ ======>> Done         2000  out of        10000         255         257
+ Max. displ. set to      :  0.008 (old :  0.010)
+ Frac. acc.: 0.41 attempts:  205696 succes:   84215
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.42 attempts:    1961 succes:     815
+ ======>> Done         4000  out of        10000         244         268
+ Max. displ. set to      :  0.007 (old :  0.008)
+ Frac. acc.: 0.43 attempts:  206322 succes:   89134
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.44 attempts:    2019 succes:     890
+ ======>> Done         6000  out of        10000         248         264
+ Max. displ. set to      :  0.006 (old :  0.007)
+ Frac. acc.: 0.44 attempts:  206279 succes:   91428
+ Max. vol. chan. set to:  0.001 (old :  0.002)
+ Frac. acc.: 0.43 attempts:    2120 succes:     917
+ ======>> Done         8000  out of        10000         234         278
+ Max. displ. set to      :  0.005 (old :  0.006)
+ Frac. acc.: 0.45 attempts:  205977 succes:   93199
+ Max. vol. chan. set to:  0.001 (old :  0.001)
+ Frac. acc.: 0.37 attempts:    2012 succes:     754
+ ======>> Done        10000  out of        10000         237         275
+ Max. displ. set to      :  0.005 (old :  0.005)
+ Frac. acc.: 0.46 attempts:  205684 succes:   93811
+ Max. vol. chan. set to:  0.001 (old :  0.001)
+ Frac. acc.: 0.31 attempts:    1995 succes:     622
+ Number of att. to displ. a part.  :    1029958
+ success:     451787(= 43.86%)
+ Number of att. to chan. volume    :      10107
+ success:       3998(= 39.56%)
+ Number of att. to exchange part.  :      51530
+ success:       1257(=  2.44%)
+ Number of att. to rotate chain    :    1028405
+ success:      11866(=  1.15%)
+ box :   1
+ Total energy end of simulation   :  -2068.63046
+       running energy             : -0.20686E+04
+       difference                 :  -0.45475E-12
+ Total virial end of simulation   : -0.49559E+04
+       running virial             : -0.49559E+04
+       difference                 :  -0.90949E-12
+ box :   2
+ Total energy end of simulation   :  -2443.40607
+       running energy             : -0.24434E+04
+       difference                 :   0.00000E+00
+ Total virial end of simulation   : -0.59155E+04
+       running virial             : -0.59155E+04
+       difference                 :   0.00000E+00
+ chemical potentials : 
+ number of samples :         1357
+ box 1     NaN
+ box 2     NaN
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.89588156E+01     0.43351837E-01
+ ###### en(2)    -0.90236445E+01     0.39431833E-01
+ ###### pr(1)     0.86715904E+07     0.11066934E+09
+ ###### pr(2)     0.12565211E+10     0.16071323E+11
+ ###### de(1)     0.31929493E+00     0.17294034E-02
+ ###### de(2)     0.32076326E+00     0.16326871E-02
+   number of blocks        10000
+         0   0.0019   0.0000   0.0018   0.0000 ******** ******** ******** ********   0.0001   0.0000   0.0001   0.0000
+         1   0.0027   0.0000   0.0025   0.0000 ******** ******** ******** ********   0.0001   0.0000   0.0001   0.0000
+         2   0.0039   0.0001   0.0035   0.0000 ******** ******** ******** ********   0.0002   0.0000   0.0001   0.0000
+         3   0.0055   0.0001   0.0050   0.0001 ******** ******** ******** ********   0.0002   0.0000   0.0002   0.0000
+         4   0.0077   0.0002   0.0070   0.0002 ******** ******** ******** ********   0.0003   0.0000   0.0003   0.0000
+         5   0.0109   0.0004   0.0099   0.0004 ******** ******** ******** ********   0.0004   0.0000   0.0004   0.0000
+         6   0.0153   0.0009   0.0139   0.0008 ******** ******** ******** ********   0.0006   0.0000   0.0006   0.0000
+         7   0.0212   0.0017   0.0192   0.0015 ******** ******** ******** ********   0.0008   0.0001   0.0008   0.0001
+         8   0.0286   0.0033   0.0261   0.0030 ******** ******** ******** ********   0.0011   0.0001   0.0011   0.0001
+         9   0.0351   0.0058   0.0337   0.0056 ******** ******** ******** ********   0.0014   0.0002   0.0014   0.0002
+        10   0.0387   0.0097   0.0412   0.0103 ******** ******** ******** ********   0.0016   0.0004   0.0015   0.0004
+        11   0.0278   0.0113   0.0459   0.0187 ******** ******** ******** ********   0.0012   0.0005   0.0012   0.0005
+        12   0.0255   0.0180   0.0695   0.0492 ******** ******** ******** ********   0.0016   0.0011   0.0016   0.0011
+ --- temp 0. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :       200
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :         2
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        10
+
+
+  Number of particles                        :       512
+  Temperature                                :     0.000
+  Pressure                                   :    32.000
+  Density box 1                              :     0.320
+  Box 1 length                               :     9.283
+  Density box 1                              :     0.320
+  Box 2 length                               :     9.283
+
+  Model parameters: 
+     epsilon: 1.000
+     sigma  : 1.000
+     mass   : 1.000
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ box :   1
+ Total energy initial configuration : -0.10540E+04
+ Total virial initial configuration : -0.34115E+04
+ box :   2
+ Total energy initial configuration : -0.10540E+04
+ Total virial initial configuration : -0.34115E+04
+  Start equilibration 
+ ======>> Done          200  out of         1000         256         256
+ Max. displ. set to      :  0.045 (old :  0.090)
+ Frac. acc.: 0.14 attempts:   20608 succes:    2864
+ Max. vol. chan. set to:  0.005 (old :  0.010)
+ Frac. acc.: 0.25 attempts:     202 succes:      50
+ ======>> Done          400  out of         1000         256         256
+ Max. displ. set to      :  0.027 (old :  0.045)
+ Frac. acc.: 0.30 attempts:   20477 succes:    6074
+ Max. vol. chan. set to:  0.003 (old :  0.005)
+ Frac. acc.: 0.29 attempts:     217 succes:      62
+ ======>> Done          600  out of         1000         256         256
+ Max. displ. set to      :  0.022 (old :  0.027)
+ Frac. acc.: 0.40 attempts:   20655 succes:    8349
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.40 attempts:     202 succes:      80
+ ======>> Done          800  out of         1000         256         256
+ Max. displ. set to      :  0.017 (old :  0.022)
+ Frac. acc.: 0.39 attempts:   20617 succes:    7939
+ Max. vol. chan. set to:  0.001 (old :  0.002)
+ Frac. acc.: 0.30 attempts:     208 succes:      62
+ ======>> Done         1000  out of         1000         256         256
+ Max. displ. set to      :  0.012 (old :  0.017)
+ Frac. acc.: 0.36 attempts:   20595 succes:    7430
+ Max. vol. chan. set to:  0.001 (old :  0.001)
+ Frac. acc.: 0.30 attempts:     207 succes:      62
+ Number of att. to displ. a part.  :     102952
+ success:      32656(= 31.72%)
+ Number of att. to chan. volume    :       1036
+ success:        316(= 30.50%)
+ Number of att. to exchange part.  :       5144
+ success:          0(=  0.00%)
+ box :   1
+ Total energy end of simulation   :  -1360.76438
+       running energy             : -0.13608E+04
+       difference                 :  -0.22737E-12
+ Total virial end of simulation   : -0.27612E+04
+       running virial             : -0.27612E+04
+       difference                 :  -0.45475E-12
+ box :   2
+ Total energy end of simulation   :  -1374.52194
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+       running energy             : -0.13745E+04
+       difference                 :   0.00000E+00
+ Total virial end of simulation   : -0.27493E+04
+       running virial             : -0.27493E+04
+       difference                 :   0.00000E+00
+ chemical potentials : 
+ number of samples :         2572
+ box 1     NaN
+ box 2     NaN
+
+  Start production 
+ ======>> Done         2000  out of        10000         256         256
+ Max. displ. set to      :  0.006 (old :  0.012)
+ Frac. acc.: 0.27 attempts:  205801 succes:   54598
+ Max. vol. chan. set to:  0.000 (old :  0.001)
+ Frac. acc.: 0.29 attempts:    2112 succes:     608
+ ======>> Done         4000  out of        10000         256         256
+ Max. displ. set to      :  0.003 (old :  0.006)
+ Frac. acc.: 0.25 attempts:  205756 succes:   51082
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.27 attempts:    2049 succes:     556
+ ======>> Done         6000  out of        10000         256         256
+ Max. displ. set to      :  0.002 (old :  0.003)
+ Frac. acc.: 0.27 attempts:  205355 succes:   56291
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.22 attempts:    2016 succes:     434
+ ======>> Done         8000  out of        10000         256         256
+ Max. displ. set to      :  0.001 (old :  0.002)
+ Frac. acc.: 0.29 attempts:  205881 succes:   59522
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.26 attempts:    2052 succes:     538
+ ======>> Done        10000  out of        10000         256         256
+ Max. displ. set to      :  0.001 (old :  0.001)
+ Frac. acc.: 0.31 attempts:  205989 succes:   63490
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.27 attempts:    2016 succes:     543
+ Number of att. to displ. a part.  :    1028782
+ success:     284983(= 27.70%)
+ Number of att. to chan. volume    :      10245
+ success:       2679(= 26.15%)
+ Number of att. to exchange part.  :      51539
+ success:          0(=  0.00%)
+  ######### PROBLEMS ENERGY ################ 
+ box :   1
+ Total energy end of simulation   :  -1547.02365
+       running energy             : -0.15470E+04
+       difference                 :   0.44059E-05
+ Total virial end of simulation   : -0.96231E+03
+       running virial             : -0.96231E+03
+       difference                 :  -0.68212E-12
+  ######### PROBLEMS ENERGY ################ 
+ box :   2
+ Total energy end of simulation   :  -1541.89838
+       running energy             : -0.15419E+04
+       difference                 :  -0.40623E-05
+ Total virial end of simulation   : -0.99048E+03
+       running virial             : -0.99048E+03
+       difference                 :   0.67075E-10
+ chemical potentials : 
+ number of samples :        25769
+ box 1     NaN
+ box 2     NaN
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.58976415E+01     0.38983795E-01
+ ###### en(2)    -0.58975941E+01     0.33222687E-01
+ ###### pr(1)    -0.57003621E+00     0.38841014E-01
+ ###### pr(2)    -0.56907879E+00     0.39060104E-01
+ ###### de(1)     0.32219377E+00     0.51915875E-03
+ ###### de(2)     0.31786849E+00     0.50905509E-03
+   number of blocks        10000
+         0   0.0017   0.0000   0.0015   0.0000   0.0017   0.0000   0.0017   0.0000   0.0000   0.0000   0.0000   0.0000
+         1   0.0025   0.0000   0.0021   0.0000   0.0025   0.0000   0.0025   0.0000   0.0000   0.0000   0.0000   0.0000
+         2   0.0035   0.0000   0.0030   0.0000   0.0035   0.0000   0.0035   0.0000   0.0000   0.0000   0.0000   0.0000
+         3   0.0049   0.0001   0.0042   0.0001   0.0049   0.0001   0.0049   0.0001   0.0001   0.0000   0.0001   0.0000
+         4   0.0070   0.0002   0.0059   0.0002   0.0070   0.0002   0.0070   0.0002   0.0001   0.0000   0.0001   0.0000
+         5   0.0099   0.0004   0.0084   0.0003   0.0099   0.0004   0.0099   0.0004   0.0001   0.0000   0.0001   0.0000
+         6   0.0140   0.0008   0.0119   0.0007   0.0140   0.0008   0.0140   0.0008   0.0002   0.0000   0.0002   0.0000
+         7   0.0199   0.0016   0.0169   0.0014   0.0198   0.0016   0.0199   0.0016   0.0003   0.0000   0.0003   0.0000
+         8   0.0283   0.0032   0.0241   0.0028   0.0281   0.0032   0.0283   0.0032   0.0004   0.0000   0.0004   0.0000
+         9   0.0410   0.0068   0.0349   0.0058   0.0409   0.0068   0.0411   0.0069   0.0005   0.0001   0.0005   0.0001
+        10   0.0611   0.0153   0.0518   0.0129   0.0608   0.0152   0.0611   0.0153   0.0008   0.0002   0.0008   0.0002
+        11   0.0939   0.0383   0.0800   0.0327   0.0937   0.0383   0.0943   0.0385   0.0012   0.0005   0.0012   0.0005
+        12   0.1314   0.0929   0.1074   0.0759   0.1289   0.0912   0.1297   0.0917   0.0020   0.0014   0.0019   0.0014
+ --- temp 0.1 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :       200
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :         2
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        10
+
+
+  Number of particles                        :       512
+  Temperature                                :     0.100
+  Pressure                                   :    32.000
+  Density box 1                              :     0.320
+  Box 1 length                               :     9.283
+  Density box 1                              :     0.320
+  Box 2 length                               :     9.283
+
+  Model parameters: 
+     epsilon: 1.000
+     sigma  : 1.000
+     mass   : 1.000
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ box :   1
+ Total energy initial configuration : -0.10540E+04
+ Total virial initial configuration : -0.34115E+04
+ box :   2
+ Total energy initial configuration : -0.10540E+04
+ Total virial initial configuration : -0.34115E+04
+  Start equilibration 
+ ======>> Done          200  out of         1000         256         256
+ Max. displ. set to      :  0.102 (old :  0.090)
+ Frac. acc.: 0.57 attempts:   20608 succes:   11692
+ Max. vol. chan. set to:  0.015 (old :  0.010)
+ Frac. acc.: 0.90 attempts:     202 succes:     181
+ ======>> Done          400  out of         1000         256         256
+ Max. displ. set to      :  0.101 (old :  0.102)
+ Frac. acc.: 0.49 attempts:   20477 succes:   10133
+ Max. vol. chan. set to:  0.022 (old :  0.015)
+ Frac. acc.: 0.83 attempts:     217 succes:     181
+ ======>> Done          600  out of         1000         256         256
+ Max. displ. set to      :  0.093 (old :  0.101)
+ Frac. acc.: 0.46 attempts:   20655 succes:    9546
+ Max. vol. chan. set to:  0.033 (old :  0.022)
+ Frac. acc.: 0.73 attempts:     202 succes:     148
+ ======>> Done          800  out of         1000         256         256
+ Max. displ. set to      :  0.083 (old :  0.093)
+ Frac. acc.: 0.45 attempts:   20617 succes:    9184
+ Max. vol. chan. set to:  0.031 (old :  0.033)
+ Frac. acc.: 0.47 attempts:     208 succes:      97
+ ======>> Done         1000  out of         1000         256         256
+ Max. displ. set to      :  0.078 (old :  0.083)
+ Frac. acc.: 0.47 attempts:   20595 succes:    9673
+ Max. vol. chan. set to:  0.033 (old :  0.031)
+ Frac. acc.: 0.53 attempts:     207 succes:     110
+ Number of att. to displ. a part.  :     102952
+ success:      50228(= 48.79%)
+ Number of att. to chan. volume    :       1036
+ success:        717(= 69.21%)
+ Number of att. to exchange part.  :       5144
+ success:          0(=  0.00%)
+ box :   1
+ Total energy end of simulation   :  -1457.33338
+       running energy             : -0.14573E+04
+       difference                 :   0.22737E-12
+ Total virial end of simulation   : -0.17297E+04
+       running virial             : -0.17297E+04
+       difference                 :   0.00000E+00
+ box :   2
+ Total energy end of simulation   :  -1347.17672
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.13472E+04
+       difference                 :  -0.22737E-12
+ Total virial end of simulation   : -0.21341E+04
+       running virial             : -0.21341E+04
+       difference                 :   0.00000E+00
+ chemical potentials : 
+ number of samples :         2572
+ box 1  -4.612
+ box 2  -5.679
+
+  Start production 
+ ======>> Done         2000  out of        10000         256         256
+ Max. displ. set to      :  0.070 (old :  0.078)
+ Frac. acc.: 0.45 attempts:  205801 succes:   92043
+ Max. vol. chan. set to:  0.030 (old :  0.033)
+ Frac. acc.: 0.45 attempts:    2112 succes:     958
+ ======>> Done         4000  out of        10000         256         256
+ Max. displ. set to      :  0.066 (old :  0.070)
+ Frac. acc.: 0.47 attempts:  205756 succes:   97194
+ Max. vol. chan. set to:  0.027 (old :  0.030)
+ Frac. acc.: 0.46 attempts:    2049 succes:     950
+ ======>> Done         6000  out of        10000         256         256
+ Max. displ. set to      :  0.065 (old :  0.066)
+ Frac. acc.: 0.49 attempts:  205355 succes:  100942
+ Max. vol. chan. set to:  0.027 (old :  0.027)
+ Frac. acc.: 0.49 attempts:    2016 succes:     980
+ ======>> Done         8000  out of        10000         256         256
+ Max. displ. set to      :  0.065 (old :  0.065)
+ Frac. acc.: 0.50 attempts:  205881 succes:  102394
+ Max. vol. chan. set to:  0.027 (old :  0.027)
+ Frac. acc.: 0.50 attempts:    2052 succes:    1035
+ ======>> Done        10000  out of        10000         257         255
+ Max. displ. set to      :  0.065 (old :  0.065)
+ Frac. acc.: 0.50 attempts:  205992 succes:  102880
+ Max. vol. chan. set to:  0.027 (old :  0.027)
+ Frac. acc.: 0.51 attempts:    2015 succes:    1021
+ Number of att. to displ. a part.  :    1028785
+ success:     495453(= 48.16%)
+ Number of att. to chan. volume    :      10244
+ success:       4944(= 48.26%)
+ Number of att. to exchange part.  :      51542
+ success:          1(=  0.00%)
+ box :   1
+ Total energy end of simulation   :  -1542.61514
+       running energy             : -0.15426E+04
+       difference                 :  -0.13642E-11
+ Total virial end of simulation   : -0.10399E+04
+       running virial             : -0.10399E+04
+       difference                 :  -0.22737E-12
+ box :   2
+ Total energy end of simulation   :  -1507.05640
+       running energy             : -0.15071E+04
+       difference                 :   0.22737E-12
+ Total virial end of simulation   : -0.79130E+03
+       running virial             : -0.79130E+03
+       difference                 :  -0.11369E-12
+ chemical potentials : 
+ number of samples :        25771
+ box 1  -7.141
+ box 2  -7.370
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.59517511E+01     0.16927962E-01
+ ###### en(2)    -0.58171463E+01     0.27580019E-01
+ ###### pr(1)    -0.44412290E+00     0.19975455E-01
+ ###### pr(2)    -0.44249959E+00     0.19747631E-01
+ ###### de(1)     0.32961482E+00     0.52850982E-03
+ ###### de(2)     0.31095179E+00     0.46689930E-03
+   number of blocks        10000
+         0   0.0008   0.0000   0.0012   0.0000   0.0009   0.0000   0.0009   0.0000   0.0000   0.0000   0.0000   0.0000
+         1   0.0011   0.0000   0.0017   0.0000   0.0013   0.0000   0.0012   0.0000   0.0000   0.0000   0.0000   0.0000
+         2   0.0015   0.0000   0.0025   0.0000   0.0017   0.0000   0.0017   0.0000   0.0000   0.0000   0.0000   0.0000
+         3   0.0021   0.0000   0.0035   0.0001   0.0024   0.0000   0.0024   0.0000   0.0001   0.0000   0.0001   0.0000
+         4   0.0030   0.0001   0.0049   0.0001   0.0034   0.0001   0.0034   0.0001   0.0001   0.0000   0.0001   0.0000
+         5   0.0043   0.0002   0.0070   0.0003   0.0048   0.0002   0.0048   0.0002   0.0001   0.0000   0.0001   0.0000
+         6   0.0061   0.0003   0.0099   0.0006   0.0067   0.0004   0.0068   0.0004   0.0002   0.0000   0.0002   0.0000
+         7   0.0086   0.0007   0.0140   0.0011   0.0095   0.0008   0.0095   0.0008   0.0002   0.0000   0.0002   0.0000
+         8   0.0122   0.0014   0.0199   0.0023   0.0134   0.0015   0.0135   0.0015   0.0003   0.0000   0.0003   0.0000
+         9   0.0177   0.0029   0.0288   0.0048   0.0192   0.0032   0.0192   0.0032   0.0005   0.0001   0.0004   0.0001
+        10   0.0260   0.0065   0.0425   0.0106   0.0279   0.0070   0.0277   0.0069   0.0008   0.0002   0.0007   0.0002
+        11   0.0391   0.0160   0.0636   0.0260   0.0407   0.0166   0.0399   0.0163   0.0012   0.0005   0.0010   0.0004
+        12   0.0480   0.0339   0.0813   0.0575   0.0508   0.0359   0.0505   0.0357   0.0016   0.0011   0.0014   0.0010
+ --- temp 2.0 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :       200
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :         2
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        10
+
+
+  Number of particles                        :       512
+  Temperature                                :     2.000
+  Pressure                                   :    32.000
+  Density box 1                              :     0.320
+  Box 1 length                               :     9.283
+  Density box 1                              :     0.320
+  Box 2 length                               :     9.283
+
+  Model parameters: 
+     epsilon: 1.000
+     sigma  : 1.000
+     mass   : 1.000
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy =     -0.027 pressure     -0.017
+
+
+ Simulations with TRUNCATED AND SHIFTED potential: 
+ Potential truncated at :     4.642
+ Energy shif            : -0.000400
+
+
+ box :   1
+ Total energy initial configuration : -0.10540E+04
+ Total virial initial configuration : -0.34115E+04
+ box :   2
+ Total energy initial configuration : -0.10540E+04
+ Total virial initial configuration : -0.34115E+04
+  Start equilibration 
+ ======>> Done          200  out of         1000         254         258
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.90 attempts:   20616 succes:   18539
+ Max. vol. chan. set to:  0.015 (old :  0.010)
+ Frac. acc.: 0.99 attempts:     201 succes:     198
+ ======>> Done          400  out of         1000         265         247
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.83 attempts:   20476 succes:   17085
+ Max. vol. chan. set to:  0.022 (old :  0.015)
+ Frac. acc.: 0.96 attempts:     221 succes:     212
+ ======>> Done          600  out of         1000         267         245
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.79 attempts:   20716 succes:   16287
+ Max. vol. chan. set to:  0.034 (old :  0.022)
+ Frac. acc.: 0.96 attempts:     205 succes:     196
+ ======>> Done          800  out of         1000         267         245
+ Max. displ. set to      :  0.444 (old :  0.304)
+ Frac. acc.: 0.73 attempts:   20622 succes:   15069
+ Max. vol. chan. set to:  0.051 (old :  0.034)
+ Frac. acc.: 0.88 attempts:     212 succes:     186
+ ======>> Done         1000  out of         1000         260         252
+ Max. displ. set to      :  0.577 (old :  0.444)
+ Frac. acc.: 0.65 attempts:   20565 succes:   13358
+ Max. vol. chan. set to:  0.076 (old :  0.051)
+ Frac. acc.: 0.85 attempts:     203 succes:     172
+ Number of att. to displ. a part.  :     102995
+ success:      80338(= 78.00%)
+ Number of att. to chan. volume    :       1042
+ success:        964(= 92.51%)
+ Number of att. to exchange part.  :       5136
+ success:        548(= 10.67%)
+ box :   1
+ Total energy end of simulation   :   -569.55867
+       running energy             : -0.56956E+03
+       difference                 :  -0.11369E-12
+ Total virial end of simulation   : -0.27361E+03
+       running virial             : -0.27361E+03
+       difference                 :   0.28422E-12
+ box :   2
+ Total energy end of simulation   :   -546.04838
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.54605E+03
+       difference                 :  -0.34106E-12
+ Total virial end of simulation   : -0.35809E+03
+       running virial             : -0.35809E+03
+       difference                 :   0.00000E+00
+ chemical potentials : 
+ number of samples :         2568
+ box 1  -2.717
+ box 2  -2.620
+
+  Start production 
+ ======>> Done         2000  out of        10000         230         282
+ Max. displ. set to      :  0.687 (old :  0.577)
+ Frac. acc.: 0.60 attempts:  205766 succes:  122510
+ Max. vol. chan. set to:  0.114 (old :  0.076)
+ Frac. acc.: 0.78 attempts:    2111 succes:    1642
+ ======>> Done         4000  out of        10000         167         345
+ Max. displ. set to      :  0.751 (old :  0.687)
+ Frac. acc.: 0.55 attempts:  205811 succes:  112537
+ Max. vol. chan. set to:  0.154 (old :  0.114)
+ Frac. acc.: 0.68 attempts:    2059 succes:    1392
+ ======>> Done         6000  out of        10000         194         318
+ Max. displ. set to      :  0.778 (old :  0.751)
+ Frac. acc.: 0.52 attempts:  205502 succes:  106495
+ Max. vol. chan. set to:  0.183 (old :  0.154)
+ Frac. acc.: 0.59 attempts:    2014 succes:    1197
+ ======>> Done         8000  out of        10000         202         310
+ Max. displ. set to      :  0.797 (old :  0.778)
+ Frac. acc.: 0.51 attempts:  205696 succes:  105365
+ Max. vol. chan. set to:  0.189 (old :  0.183)
+ Frac. acc.: 0.52 attempts:    2057 succes:    1063
+ ======>> Done        10000  out of        10000         236         276
+ Max. displ. set to      :  0.802 (old :  0.797)
+ Frac. acc.: 0.50 attempts:  205948 succes:  103535
+ Max. vol. chan. set to:  0.187 (old :  0.189)
+ Frac. acc.: 0.49 attempts:    2023 succes:    1000
+ Number of att. to displ. a part.  :    1028723
+ success:     550442(= 53.51%)
+ Number of att. to chan. volume    :      10264
+ success:       6294(= 61.32%)
+ Number of att. to exchange part.  :      51580
+ success:       8342(= 16.17%)
+ box :   1
+ Total energy end of simulation   :   -448.59902
+       running energy             : -0.44860E+03
+       difference                 :  -0.62528E-12
+ Total virial end of simulation   :  0.32301E+02
+       running virial             :  0.32301E+02
+       difference                 :   0.24158E-12
+ box :   2
+ Total energy end of simulation   :   -573.06495
+       running energy             : -0.57306E+03
+       difference                 :  -0.34106E-12
+ Total virial end of simulation   : -0.83403E+02
+       running virial             : -0.83403E+02
+       difference                 :  -0.42633E-13
+ chemical potentials : 
+ number of samples :        25790
+ box 1  -3.170
+ box 2  -3.193
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.20021416E+01     0.29334182E-01
+ ###### en(2)    -0.20365190E+01     0.19776684E-01
+ ###### pr(1)     0.51733309E+00     0.27036773E-01
+ ###### pr(2)     0.52696784E+00     0.22143202E-01
+ ###### de(1)     0.31906068E+00     0.40607642E-02
+ ###### de(2)     0.32148854E+00     0.26926652E-02
+   number of blocks        10000
+         0   0.0013   0.0000   0.0009   0.0000   0.0012   0.0000   0.0010   0.0000   0.0002   0.0000   0.0001   0.0000
+         1   0.0018   0.0000   0.0012   0.0000   0.0016   0.0000   0.0013   0.0000   0.0003   0.0000   0.0002   0.0000
+         2   0.0026   0.0000   0.0017   0.0000   0.0020   0.0000   0.0017   0.0000   0.0004   0.0000   0.0002   0.0000
+         3   0.0036   0.0001   0.0024   0.0000   0.0026   0.0001   0.0022   0.0000   0.0005   0.0000   0.0003   0.0000
+         4   0.0050   0.0001   0.0033   0.0001   0.0031   0.0001   0.0027   0.0001   0.0007   0.0000   0.0005   0.0000
+         5   0.0068   0.0003   0.0044   0.0002   0.0037   0.0001   0.0031   0.0001   0.0009   0.0000   0.0006   0.0000
+         6   0.0091   0.0005   0.0058   0.0003   0.0042   0.0002   0.0036   0.0002   0.0013   0.0001   0.0008   0.0000
+         7   0.0112   0.0009   0.0073   0.0006   0.0044   0.0004   0.0039   0.0003   0.0016   0.0001   0.0011   0.0001
+         8   0.0137   0.0016   0.0082   0.0009   0.0046   0.0005   0.0047   0.0005   0.0019   0.0002   0.0013   0.0001
+         9   0.0143   0.0024   0.0088   0.0015   0.0045   0.0008   0.0045   0.0007   0.0020   0.0003   0.0013   0.0002
+        10   0.0136   0.0034   0.0074   0.0019   0.0056   0.0014   0.0053   0.0013   0.0018   0.0004   0.0011   0.0003
+        11   0.0115   0.0047   0.0063   0.0026   0.0046   0.0019   0.0031   0.0012   0.0008   0.0003   0.0005   0.0002
+        12   0.0184   0.0130   0.0070   0.0050   0.0010   0.0007   0.0005   0.0003   0.0013   0.0009   0.0006   0.0004
+ --- temp 2250 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       512
+  Temperature                                :  2250.000
+  Pressure                                   :    32.000
+  Density box 1                              :     0.320
+  Box 1 length                               :     9.283
+  Density box 1                              :     0.320
+  Box 2 length                               :     9.283
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy = -10367.698 pressure  -5926.893
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:     4.642
+ Tail corrections:   energy = -10367.698 pressure  -5926.893
+
+
+ box :   1
+ Total energy initial configuration :  0.43743E+22
+ Total virial initial configuration :  0.52492E+23
+ box :   2
+ Total energy initial configuration :  0.43743E+22
+ Total virial initial configuration :  0.52492E+23
+  Start equilibration 
+ ======>> Done          200  out of         1000         256         256
+ Max. displ. set to      :  0.084 (old :  0.090)
+ Frac. acc.: 0.47 attempts:    4123 succes:    1921
+ Max. vol. chan. set to:  0.008 (old :  0.010)
+ Frac. acc.: 0.41 attempts:    1416 succes:     575
+ ======>> Done          400  out of         1000         256         256
+ Max. displ. set to      :  0.075 (old :  0.084)
+ Frac. acc.: 0.44 attempts:    4279 succes:    1902
+ Max. vol. chan. set to:  0.004 (old :  0.008)
+ Frac. acc.: 0.26 attempts:    1426 succes:     377
+ ======>> Done          600  out of         1000         256         256
+ Max. displ. set to      :  0.062 (old :  0.075)
+ Frac. acc.: 0.42 attempts:    4247 succes:    1772
+ Max. vol. chan. set to:  0.002 (old :  0.004)
+ Frac. acc.: 0.19 attempts:    1364 succes:     265
+ ======>> Done          800  out of         1000         256         256
+ Max. displ. set to      :  0.050 (old :  0.062)
+ Frac. acc.: 0.40 attempts:    4165 succes:    1671
+ Max. vol. chan. set to:  0.001 (old :  0.002)
+ Frac. acc.: 0.21 attempts:    1461 succes:     309
+ ======>> Done         1000  out of         1000         256         256
+ Max. displ. set to      :  0.041 (old :  0.050)
+ Frac. acc.: 0.41 attempts:    4115 succes:    1674
+ Max. vol. chan. set to:  0.001 (old :  0.001)
+ Frac. acc.: 0.21 attempts:    1444 succes:     310
+ Number of att. to displ. a part.  :      20929
+ success:       8940(= 42.72%)
+ Number of att. to chan. volume    :       7111
+ success:       1836(= 25.82%)
+ Number of att. to exchange part.  :      20903
+ success:          0(=  0.00%)
+ Number of att. to rotate chain    :      21057
+ success:       2491(= 11.83%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             :  0.19088E+13
+       difference                 :   0.89520E+10
+ Total virial end of simulation   :  0.23022E+14
+       running virial             :  0.22914E+14
+       difference                 :   0.10741E+12
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             :  0.18889E+13
+       difference                 :   0.69833E+10
+ Total virial end of simulation   :  0.22760E+14
+       running virial             :  0.22676E+14
+       difference                 :   0.83805E+11
+ chemical potentials : 
+ number of samples :            0
+ box 1   0.000
+ box 2   0.000
+
+  Start production 
+ ======>> Done         2000  out of        10000         256         256
+ Max. displ. set to      :  0.026 (old :  0.041)
+ Frac. acc.: 0.32 attempts:   42071 succes:   13524
+ Max. vol. chan. set to:  0.000 (old :  0.001)
+ Frac. acc.: 0.19 attempts:   13983 succes:    2681
+ ======>> Done         4000  out of        10000         256         256
+ Max. displ. set to      :  0.013 (old :  0.026)
+ Frac. acc.: 0.24 attempts:   42385 succes:   10338
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.21 attempts:   14030 succes:    3004
+ ======>> Done         6000  out of        10000         256         256
+ Max. displ. set to      :  0.007 (old :  0.013)
+ Frac. acc.: 0.27 attempts:   42332 succes:   11614
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.40 attempts:   14092 succes:    5696
+ ======>> Done         8000  out of        10000         256         256
+ Max. displ. set to      :  0.005 (old :  0.007)
+ Frac. acc.: 0.32 attempts:   41924 succes:   13245
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.49 attempts:   13980 succes:    6899
+ ======>> Done        10000  out of        10000         256         256
+ Max. displ. set to      :  0.003 (old :  0.005)
+ Frac. acc.: 0.35 attempts:   41964 succes:   14569
+ Max. vol. chan. set to:  0.000 (old :  0.000)
+ Frac. acc.: 0.50 attempts:   13869 succes:    6900
+ Number of att. to displ. a part.  :     210676
+ success:      63290(= 30.04%)
+ Number of att. to chan. volume    :      69954
+ success:      25180(= 36.00%)
+ Number of att. to exchange part.  :     209680
+ success:          0(=  0.00%)
+ Number of att. to rotate chain    :     209690
+ success:       1340(=  0.64%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             :  0.69879E+12
+       difference                 :   0.91101E+10
+ Total virial end of simulation   :  0.85019E+13
+       running virial             :  0.83926E+13
+       difference                 :   0.10931E+12
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             :  0.69854E+12
+       difference                 :   0.68615E+10
+ Total virial end of simulation   :  0.84719E+13
+       running virial             :  0.83895E+13
+       difference                 :   0.82342E+11
+ chemical potentials : 
+ number of samples :            0
+ box 1   0.000
+ box 2   0.000
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)     0.32386445E+10     0.18036266E+09
+ ###### en(2)     0.32303120E+10     0.17693491E+09
+ ###### pr(1)     0.41431587E+10     0.22870121E+09
+ ###### pr(2)     0.41431716E+10     0.22870444E+09
+ ###### de(1)     0.31969045E+00     0.10034250E-03
+ ###### de(2)     0.32031143E+00     0.10154292E-03
+   number of blocks        10000
+         0 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         1 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         2 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         3 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         4 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         5 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         6 ******** ******** ******** ******** ******** ******** ******** ********   0.0000   0.0000   0.0000   0.0000
+         7 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0000   0.0001   0.0000
+         8 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0000   0.0001   0.0000
+         9 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0000   0.0001   0.0000
+        10 ******** ******** ******** ******** ******** ******** ******** ********   0.0002   0.0000   0.0002   0.0000
+        11 ******** ******** ******** ******** ******** ******** ******** ********   0.0002   0.0001   0.0002   0.0001
+        12 ******** ******** ******** ******** ******** ******** ******** ********   0.0002   0.0001   0.0002   0.0001
+ --- temp 250. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       512
+  Temperature                                :   250.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    39.672
+  Density box 1                              :     0.004
+  Box 2 length                               :    39.672
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration : -0.35222E+06
+ Total virial initial configuration : -0.12894E+07
+ box :   2
+ Total energy initial configuration : -0.35222E+06
+ Total virial initial configuration : -0.12894E+07
+  Start equilibration 
+ ======>> Done          200  out of         1000         258         254
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.96 attempts:    4209 succes:    4050
+ Max. vol. chan. set to:  0.015 (old :  0.010)
+ Frac. acc.: 0.90 attempts:    1389 succes:    1247
+ ======>> Done          400  out of         1000         252         260
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.92 attempts:    4188 succes:    3842
+ Max. vol. chan. set to:  0.022 (old :  0.015)
+ Frac. acc.: 0.84 attempts:    1361 succes:    1137
+ ======>> Done          600  out of         1000         259         253
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.87 attempts:    4313 succes:    3769
+ Max. vol. chan. set to:  0.034 (old :  0.022)
+ Frac. acc.: 0.75 attempts:    1346 succes:    1014
+ ======>> Done          800  out of         1000         268         244
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.82 attempts:    4182 succes:    3424
+ Max. vol. chan. set to:  0.041 (old :  0.034)
+ Frac. acc.: 0.60 attempts:    1435 succes:     868
+ ======>> Done         1000  out of         1000         283         229
+ Max. displ. set to      :  0.657 (old :  0.456)
+ Frac. acc.: 0.72 attempts:    4155 succes:    2997
+ Max. vol. chan. set to:  0.041 (old :  0.041)
+ Frac. acc.: 0.50 attempts:    1351 succes:     671
+ Number of att. to displ. a part.  :      21047
+ success:      18082(= 85.91%)
+ Number of att. to chan. volume    :       6882
+ success:       4937(= 71.74%)
+ Number of att. to exchange part.  :      20878
+ success:        319(=  1.53%)
+ Number of att. to rotate chain    :      21193
+ success:       9447(= 44.58%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             : -0.43932E+06
+       difference                 :  -0.10314E+06
+ Total virial end of simulation   : -0.49585E+06
+       running virial             :  0.20144E+07
+       difference                 :  -0.25102E+07
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.50957E+06
+       difference                 :   0.18644E+06
+ Total virial end of simulation   : -0.58648E+06
+       running virial             :  0.43503E+07
+       difference                 :  -0.49367E+07
+ chemical potentials : 
+ number of samples :         5101
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000         450          62
+ Max. displ. set to      :  0.754 (old :  0.657)
+ Frac. acc.: 0.57 attempts:   41841 succes:   24002
+ Max. vol. chan. set to:  0.034 (old :  0.041)
+ Frac. acc.: 0.41 attempts:   14150 succes:    5849
+ ======>> Done         4000  out of        10000         450          62
+ Max. displ. set to      :  0.741 (old :  0.754)
+ Frac. acc.: 0.49 attempts:   41905 succes:   20595
+ Max. vol. chan. set to:  0.027 (old :  0.034)
+ Frac. acc.: 0.41 attempts:   14117 succes:    5778
+ ======>> Done         6000  out of        10000         440          72
+ Max. displ. set to      :  0.703 (old :  0.741)
+ Frac. acc.: 0.47 attempts:   41930 succes:   19885
+ Max. vol. chan. set to:  0.024 (old :  0.027)
+ Frac. acc.: 0.45 attempts:   13829 succes:    6169
+ ======>> Done         8000  out of        10000         411         101
+ Max. displ. set to      :  0.699 (old :  0.703)
+ Frac. acc.: 0.50 attempts:   42186 succes:   20972
+ Max. vol. chan. set to:  0.023 (old :  0.024)
+ Frac. acc.: 0.46 attempts:   14216 succes:    6546
+ ======>> Done        10000  out of        10000         395         117
+ Max. displ. set to      :  0.740 (old :  0.699)
+ Frac. acc.: 0.53 attempts:   42261 succes:   22359
+ Max. vol. chan. set to:  0.022 (old :  0.023)
+ Frac. acc.: 0.48 attempts:   14133 succes:    6769
+ Number of att. to displ. a part.  :     210123
+ success:     107813(= 51.31%)
+ Number of att. to chan. volume    :      70445
+ success:      31111(= 44.16%)
+ Number of att. to exchange part.  :     209902
+ success:        800(=  0.38%)
+ Number of att. to rotate chain    :     209530
+ success:      67215(= 32.08%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             : -0.23724E+06
+       difference                 :  -0.81276E+06
+ Total virial end of simulation   : -0.12265E+07
+       running virial             :  0.10111E+08
+       difference                 :  -0.11337E+08
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : -52571.47894
+       running energy             : -0.88852E+06
+       difference                 :   0.83594E+06
+ Total virial end of simulation   : -0.92701E+05
+       running virial             :  0.31915E+08
+       difference                 :  -0.32008E+08
+ chemical potentials : 
+ number of samples :        45346
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.14585477E+04     0.99259630E+02
+ ###### en(2)    -0.64223947E+04     0.41562774E+03
+ ###### pr(1)     0.71692962E+02     0.60424032E+01
+ ###### pr(2)     0.71677516E+02     0.60388957E+01
+ ###### de(1)     0.11632273E-01     0.35837065E-03
+ ###### de(2)     0.10988161E-02     0.11644220E-03
+   number of blocks        10000
+         0   4.4392   0.0314  18.5884   0.1314   0.2702   0.0019   0.2701   0.0019   0.0000   0.0000   0.0000   0.0000
+         1   6.2761   0.0628  26.2743   0.2628   0.3818   0.0038   0.3819   0.0038   0.0000   0.0000   0.0000   0.0000
+         2   8.8749   0.1255  37.1495   0.5255   0.5396   0.0076   0.5401   0.0076   0.0000   0.0000   0.0000   0.0000
+         3  12.5521   0.2511  52.5388   1.0512   0.7631   0.0153   0.7640   0.0153   0.0000   0.0000   0.0000   0.0000
+         4  17.7573   0.5027  74.3213   2.1038   1.0794   0.0306   1.0808   0.0306   0.0001   0.0000   0.0000   0.0000
+         5  25.0874   1.0059 105.3007   4.2222   1.5272   0.0612   1.5293   0.0613   0.0001   0.0000   0.0000   0.0000
+         6  35.5318   2.0181 149.1286   8.4699   2.1631   0.1229   2.1661   0.1230   0.0001   0.0000   0.0000   0.0000
+         7  50.4028   4.0616 211.5032  17.0434   3.0683   0.2473   3.0726   0.2476   0.0002   0.0000   0.0001   0.0000
+         8  71.7051   8.2251 300.7361  34.4968   4.3660   0.5008   4.3721   0.5015   0.0003   0.0000   0.0001   0.0000
+         9  99.3624  16.5604 438.5809  73.0968   6.2165   1.0361   6.2258   1.0376   0.0004   0.0001   0.0001   0.0000
+        10 133.4023  33.3506 660.7595 165.1899   8.8761   2.2190   8.8881   2.2220   0.0006   0.0001   0.0002   0.0000
+        11 149.5070  61.0360 ******** 445.8124  12.5587   5.1271  12.5695   5.1315   0.0009   0.0004   0.0003   0.0001
+        12 198.4641 140.3353 ******** ********  19.0966  13.5033  19.1052  13.5094   0.0011   0.0008   0.0002   0.0002
+ --- temp 250. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       512
+  Temperature                                :   250.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    39.672
+  Density box 1                              :     0.004
+  Box 2 length                               :    39.672
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration : -0.35222E+06
+ Total virial initial configuration : -0.12894E+07
+ box :   2
+ Total energy initial configuration : -0.35222E+06
+ Total virial initial configuration : -0.12894E+07
+  Start equilibration 
+ ======>> Done          200  out of         1000         258         254
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.96 attempts:    4209 succes:    4050
+ Max. vol. chan. set to:  0.015 (old :  0.010)
+ Frac. acc.: 0.90 attempts:    1389 succes:    1247
+ ======>> Done          400  out of         1000         252         260
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.92 attempts:    4188 succes:    3842
+ Max. vol. chan. set to:  0.022 (old :  0.015)
+ Frac. acc.: 0.84 attempts:    1361 succes:    1137
+ ======>> Done          600  out of         1000         259         253
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.87 attempts:    4313 succes:    3769
+ Max. vol. chan. set to:  0.034 (old :  0.022)
+ Frac. acc.: 0.75 attempts:    1346 succes:    1014
+ ======>> Done          800  out of         1000         268         244
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.82 attempts:    4182 succes:    3424
+ Max. vol. chan. set to:  0.041 (old :  0.034)
+ Frac. acc.: 0.60 attempts:    1435 succes:     868
+ ======>> Done         1000  out of         1000         283         229
+ Max. displ. set to      :  0.657 (old :  0.456)
+ Frac. acc.: 0.72 attempts:    4155 succes:    2997
+ Max. vol. chan. set to:  0.041 (old :  0.041)
+ Frac. acc.: 0.50 attempts:    1351 succes:     671
+ Number of att. to displ. a part.  :      21047
+ success:      18082(= 85.91%)
+ Number of att. to chan. volume    :       6882
+ success:       4937(= 71.74%)
+ Number of att. to exchange part.  :      20878
+ success:        319(=  1.53%)
+ Number of att. to rotate chain    :      21193
+ success:       9447(= 44.58%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             : -0.43932E+06
+       difference                 :  -0.10314E+06
+ Total virial end of simulation   : -0.49585E+06
+       running virial             :  0.20144E+07
+       difference                 :  -0.25102E+07
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.50957E+06
+       difference                 :   0.18644E+06
+ Total virial end of simulation   : -0.58648E+06
+       running virial             :  0.43503E+07
+       difference                 :  -0.49367E+07
+ chemical potentials : 
+ number of samples :         5101
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000         450          62
+ Max. displ. set to      :  0.754 (old :  0.657)
+ Frac. acc.: 0.57 attempts:   41841 succes:   24002
+ Max. vol. chan. set to:  0.034 (old :  0.041)
+ Frac. acc.: 0.41 attempts:   14150 succes:    5849
+ ======>> Done         4000  out of        10000         450          62
+ Max. displ. set to      :  0.741 (old :  0.754)
+ Frac. acc.: 0.49 attempts:   41905 succes:   20595
+ Max. vol. chan. set to:  0.027 (old :  0.034)
+ Frac. acc.: 0.41 attempts:   14117 succes:    5778
+ ======>> Done         6000  out of        10000         440          72
+ Max. displ. set to      :  0.703 (old :  0.741)
+ Frac. acc.: 0.47 attempts:   41930 succes:   19885
+ Max. vol. chan. set to:  0.024 (old :  0.027)
+ Frac. acc.: 0.45 attempts:   13829 succes:    6169
+ ======>> Done         8000  out of        10000         411         101
+ Max. displ. set to      :  0.699 (old :  0.703)
+ Frac. acc.: 0.50 attempts:   42186 succes:   20972
+ Max. vol. chan. set to:  0.023 (old :  0.024)
+ Frac. acc.: 0.46 attempts:   14216 succes:    6546
+ ======>> Done        10000  out of        10000         395         117
+ Max. displ. set to      :  0.740 (old :  0.699)
+ Frac. acc.: 0.53 attempts:   42261 succes:   22359
+ Max. vol. chan. set to:  0.022 (old :  0.023)
+ Frac. acc.: 0.48 attempts:   14133 succes:    6769
+ Number of att. to displ. a part.  :     210123
+ success:     107813(= 51.31%)
+ Number of att. to chan. volume    :      70445
+ success:      31111(= 44.16%)
+ Number of att. to exchange part.  :     209902
+ success:        800(=  0.38%)
+ Number of att. to rotate chain    :     209530
+ success:      67215(= 32.08%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             : -0.23724E+06
+       difference                 :  -0.81276E+06
+ Total virial end of simulation   : -0.12265E+07
+       running virial             :  0.10111E+08
+       difference                 :  -0.11337E+08
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : -52571.47894
+       running energy             : -0.88852E+06
+       difference                 :   0.83594E+06
+ Total virial end of simulation   : -0.92701E+05
+       running virial             :  0.31915E+08
+       difference                 :  -0.32008E+08
+ chemical potentials : 
+ number of samples :        45346
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.14585477E+04     0.99259630E+02
+ ###### en(2)    -0.64223947E+04     0.41562774E+03
+ ###### pr(1)     0.71692962E+02     0.60424032E+01
+ ###### pr(2)     0.71677516E+02     0.60388957E+01
+ ###### de(1)     0.11632273E-01     0.35837065E-03
+ ###### de(2)     0.10988161E-02     0.11644220E-03
+   number of blocks        10000
+         0   4.4392   0.0314  18.5884   0.1314   0.2702   0.0019   0.2701   0.0019   0.0000   0.0000   0.0000   0.0000
+         1   6.2761   0.0628  26.2743   0.2628   0.3818   0.0038   0.3819   0.0038   0.0000   0.0000   0.0000   0.0000
+         2   8.8749   0.1255  37.1495   0.5255   0.5396   0.0076   0.5401   0.0076   0.0000   0.0000   0.0000   0.0000
+         3  12.5521   0.2511  52.5388   1.0512   0.7631   0.0153   0.7640   0.0153   0.0000   0.0000   0.0000   0.0000
+         4  17.7573   0.5027  74.3213   2.1038   1.0794   0.0306   1.0808   0.0306   0.0001   0.0000   0.0000   0.0000
+         5  25.0874   1.0059 105.3007   4.2222   1.5272   0.0612   1.5293   0.0613   0.0001   0.0000   0.0000   0.0000
+         6  35.5318   2.0181 149.1286   8.4699   2.1631   0.1229   2.1661   0.1230   0.0001   0.0000   0.0000   0.0000
+         7  50.4028   4.0616 211.5032  17.0434   3.0683   0.2473   3.0726   0.2476   0.0002   0.0000   0.0001   0.0000
+         8  71.7051   8.2251 300.7361  34.4968   4.3660   0.5008   4.3721   0.5015   0.0003   0.0000   0.0001   0.0000
+         9  99.3624  16.5604 438.5809  73.0968   6.2165   1.0361   6.2258   1.0376   0.0004   0.0001   0.0001   0.0000
+        10 133.4023  33.3506 660.7595 165.1899   8.8761   2.2190   8.8881   2.2220   0.0006   0.0001   0.0002   0.0000
+        11 149.5070  61.0360 ******** 445.8124  12.5587   5.1271  12.5695   5.1315   0.0009   0.0004   0.0003   0.0001
+        12 198.4641 140.3353 ******** ********  19.0966  13.5033  19.1052  13.5094   0.0011   0.0008   0.0002   0.0002
+ --- temp 250. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       512
+  Temperature                                :   250.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    39.672
+  Density box 1                              :     0.004
+  Box 2 length                               :    39.672
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration : -0.82292E+05
+ Total virial initial configuration :  0.28830E+07
+ box :   2
+ Total energy initial configuration : -0.82292E+05
+ Total virial initial configuration :  0.28830E+07
+  Start equilibration 
+ ======>> Done          200  out of         1000         230         282
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.93 attempts:    4139 succes:    3833
+ Max. vol. chan. set to:  0.010 (old :  0.010)
+ Frac. acc.: 0.48 attempts:    1387 succes:     663
+ ======>> Done          400  out of         1000         232         280
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.93 attempts:    4209 succes:    3918
+ Max. vol. chan. set to:  0.008 (old :  0.010)
+ Frac. acc.: 0.41 attempts:    1373 succes:     558
+ ======>> Done          600  out of         1000         241         271
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.90 attempts:    4183 succes:    3766
+ Max. vol. chan. set to:  0.007 (old :  0.008)
+ Frac. acc.: 0.47 attempts:    1378 succes:     651
+ ======>> Done          800  out of         1000         242         270
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.84 attempts:    4209 succes:    3516
+ Max. vol. chan. set to:  0.007 (old :  0.007)
+ Frac. acc.: 0.46 attempts:    1438 succes:     668
+ ======>> Done         1000  out of         1000         238         274
+ Max. displ. set to      :  0.683 (old :  0.456)
+ Frac. acc.: 0.77 attempts:    4189 succes:    3217
+ Max. vol. chan. set to:  0.007 (old :  0.007)
+ Frac. acc.: 0.50 attempts:    1413 succes:     710
+ Number of att. to displ. a part.  :      20929
+ success:      18250(= 87.20%)
+ Number of att. to chan. volume    :       6989
+ success:       3250(= 46.50%)
+ Number of att. to exchange part.  :      20998
+ success:        982(=  4.68%)
+ Number of att. to rotate chain    :      21084
+ success:       8300(= 39.37%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             :  0.10988E+07
+       difference                 :  -0.14084E+07
+ Total virial end of simulation   : -0.48270E+06
+       running virial             :  0.15350E+09
+       difference                 :  -0.15398E+09
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.27035E+07
+       difference                 :   0.23714E+07
+ Total virial end of simulation   : -0.58612E+06
+       running virial             :  0.18488E+09
+       difference                 :  -0.18546E+09
+ chemical potentials : 
+ number of samples :         4466
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000         213         299
+ Max. displ. set to      :  0.911 (old :  0.683)
+ Frac. acc.: 0.67 attempts:   41936 succes:   27935
+ Max. vol. chan. set to:  0.006 (old :  0.007)
+ Frac. acc.: 0.42 attempts:   14086 succes:    5929
+ ======>> Done         4000  out of        10000         214         298
+ Max. displ. set to      :  1.050 (old :  0.911)
+ Frac. acc.: 0.58 attempts:   42445 succes:   24475
+ Max. vol. chan. set to:  0.005 (old :  0.006)
+ Frac. acc.: 0.40 attempts:   13925 succes:    5573
+ ======>> Done         6000  out of        10000           2         510
+ Max. displ. set to      :  1.068 (old :  1.050)
+ Frac. acc.: 0.51 attempts:   42018 succes:   21362
+ Max. vol. chan. set to:  0.004 (old :  0.005)
+ Frac. acc.: 0.40 attempts:   14152 succes:    5715
+ ======>> Done         8000  out of        10000           0         512
+ Max. displ. set to      :  1.035 (old :  1.068)
+ Frac. acc.: 0.48 attempts:   42013 succes:   20362
+ Max. vol. chan. set to:  0.003 (old :  0.004)
+ Frac. acc.: 0.43 attempts:   13989 succes:    6031
+ ======>> Done        10000  out of        10000           3         509
+ Max. displ. set to      :  1.001 (old :  1.035)
+ Frac. acc.: 0.48 attempts:   42197 succes:   20416
+ Max. vol. chan. set to:  0.003 (old :  0.003)
+ Frac. acc.: 0.45 attempts:   14234 succes:    6363
+ Number of att. to displ. a part.  :     210609
+ success:     114550(= 54.39%)
+ Number of att. to chan. volume    :      70386
+ success:      29611(= 42.07%)
+ Number of att. to exchange part.  :     209452
+ success:       8045(=  3.84%)
+ Number of att. to rotate chain    :     209553
+ success:      65939(= 31.47%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   :    -11.13192
+       running energy             : -0.23238E+08
+       difference                 :   0.23238E+08
+ Total virial end of simulation   : -0.65281E+02
+       running virial             :  0.10529E+10
+       difference                 :  -0.10529E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             :  0.20962E+08
+       difference                 :  -0.21781E+08
+ Total virial end of simulation   : -0.13420E+07
+       running virial             :  0.10613E+10
+       difference                 :  -0.10627E+10
+ chemical potentials : 
+ number of samples :        51041
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.24922766E+07     0.10403222E+07
+ ###### en(2)     0.29665926E+04     0.40093841E+04
+ ###### pr(1)     0.32207600E+04     0.31443110E+03
+ ###### pr(2)     0.32206940E+04     0.31439971E+03
+ ###### de(1)     0.20689983E-02     0.44232675E-03
+ ###### de(2)     0.59428239E-02     0.40444734E-03
+   number of blocks        10000
+         0 ******** 329.0116 179.3141   1.2680  14.0625   0.0994  14.0611   0.0994   0.0000   0.0000   0.0000   0.0000
+         1 ******** 608.4824 253.5964   2.5362  19.8882   0.1989  19.8863   0.1989   0.0000   0.0000   0.0000   0.0000
+         2 ******** ******** 358.6703   5.0734  28.1288   0.3979  28.1261   0.3978   0.0000   0.0000   0.0000   0.0000
+         3 ******** ******** 507.3311  10.1507  39.7879   0.7961  39.7839   0.7960   0.0001   0.0000   0.0001   0.0000
+         4 ******** ******** 717.7478  20.3172  56.2909   1.5934  56.2850   1.5933   0.0001   0.0000   0.0001   0.0000
+         5 ******** ******** ********  40.6457  79.6089   3.1920  79.6008   3.1917   0.0001   0.0000   0.0001   0.0000
+         6 ******** ******** ********  81.5486 112.7625   6.4045 112.7508   6.4038   0.0002   0.0000   0.0001   0.0000
+         7 ******** ******** ******** 164.1220 159.9741  12.8911 159.9575  12.8897   0.0002   0.0000   0.0002   0.0000
+         8 ******** ******** ******** 332.3706 227.6537  26.1137 227.6283  26.1108   0.0003   0.0000   0.0003   0.0000
+         9 ******** ******** ******** 666.7542 321.8853  53.6475 321.8478  53.6413   0.0005   0.0001   0.0004   0.0001
+        10 ******** ******** ******** ******** 453.7734 113.4433 453.7544 113.4386   0.0007   0.0002   0.0006   0.0002
+        11 ******** ******** ******** ******** 633.6417 258.6831 633.5097 258.6292   0.0010   0.0004   0.0009   0.0004
+        12 ******** ******** ******** ******** 976.6994 690.6308 976.4317 690.4415   0.0017   0.0012   0.0015   0.0010
+ --- temp 250. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       512 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       512
+  Temperature                                :   250.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    39.672
+  Density box 1                              :     0.004
+  Box 2 length                               :    39.672
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration : -0.14654E+06
+ Total virial initial configuration :  0.17333E+07
+ box :   2
+ Total energy initial configuration : -0.14654E+06
+ Total virial initial configuration :  0.17333E+07
+  Start equilibration 
+ ======>> Done          200  out of         1000         178         334
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.91 attempts:    4270 succes:    3902
+ Max. vol. chan. set to:  0.010 (old :  0.010)
+ Frac. acc.: 0.48 attempts:    1409 succes:     674
+ ======>> Done          400  out of         1000         202         310
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.93 attempts:    4201 succes:    3896
+ Max. vol. chan. set to:  0.007 (old :  0.010)
+ Frac. acc.: 0.38 attempts:    1375 succes:     524
+ ======>> Done          600  out of         1000         192         320
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.90 attempts:    4239 succes:    3813
+ Max. vol. chan. set to:  0.006 (old :  0.007)
+ Frac. acc.: 0.44 attempts:    1344 succes:     590
+ ======>> Done          800  out of         1000         192         320
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.84 attempts:    4142 succes:    3496
+ Max. vol. chan. set to:  0.006 (old :  0.006)
+ Frac. acc.: 0.49 attempts:    1424 succes:     701
+ ======>> Done         1000  out of         1000         197         315
+ Max. displ. set to      :  0.683 (old :  0.456)
+ Frac. acc.: 0.78 attempts:    4177 succes:    3253
+ Max. vol. chan. set to:  0.006 (old :  0.006)
+ Frac. acc.: 0.47 attempts:    1389 succes:     656
+ Number of att. to displ. a part.  :      21029
+ success:      18360(= 87.31%)
+ Number of att. to chan. volume    :       6941
+ success:       3145(= 45.31%)
+ Number of att. to exchange part.  :      20965
+ success:        857(=  4.09%)
+ Number of att. to rotate chain    :      21065
+ success:       9208(= 43.71%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             :  0.86141E+07
+       difference                 :  -0.89219E+07
+ Total virial end of simulation   : -0.40126E+06
+       running virial             :  0.14333E+09
+       difference                 :  -0.14373E+09
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.57700E+08
+       difference                 :   0.57420E+08
+ Total virial end of simulation   : -0.52086E+06
+       running virial             :  0.60720E+09
+       difference                 :  -0.60773E+09
+ chemical potentials : 
+ number of samples :         3095
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000         198         314
+ Max. displ. set to      :  0.935 (old :  0.683)
+ Frac. acc.: 0.68 attempts:   42127 succes:   28832
+ Max. vol. chan. set to:  0.006 (old :  0.006)
+ Frac. acc.: 0.47 attempts:   14147 succes:    6623
+ ======>> Done         4000  out of        10000         200         312
+ Max. displ. set to      :  1.101 (old :  0.935)
+ Frac. acc.: 0.59 attempts:   42250 succes:   24868
+ Max. vol. chan. set to:  0.005 (old :  0.006)
+ Frac. acc.: 0.45 attempts:   14009 succes:    6317
+ ======>> Done         6000  out of        10000         201         311
+ Max. displ. set to      :  1.156 (old :  1.101)
+ Frac. acc.: 0.52 attempts:   41988 succes:   22042
+ Max. vol. chan. set to:  0.005 (old :  0.005)
+ Frac. acc.: 0.46 attempts:   14000 succes:    6466
+ ======>> Done         8000  out of        10000         190         322
+ Max. displ. set to      :  1.181 (old :  1.156)
+ Frac. acc.: 0.51 attempts:   42070 succes:   21482
+ Max. vol. chan. set to:  0.004 (old :  0.005)
+ Frac. acc.: 0.46 attempts:   13932 succes:    6344
+ ======>> Done        10000  out of        10000         196         316
+ Max. displ. set to      :  1.195 (old :  1.181)
+ Frac. acc.: 0.51 attempts:   42276 succes:   21394
+ Max. vol. chan. set to:  0.004 (old :  0.004)
+ Frac. acc.: 0.46 attempts:   14129 succes:    6462
+ Number of att. to displ. a part.  :     210711
+ success:     118618(= 56.29%)
+ Number of att. to chan. volume    :      70217
+ success:      32212(= 45.87%)
+ Number of att. to exchange part.  :     209726
+ success:       3347(=  1.60%)
+ Number of att. to rotate chain    :     209346
+ success:      76790(= 36.68%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             :  0.15009E+08
+       difference                 :  -0.15331E+08
+ Total virial end of simulation   : -0.23287E+06
+       running virial             :  0.37071E+09
+       difference                 :  -0.37094E+09
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             : -0.64316E+08
+       difference                 :   0.64021E+08
+ Total virial end of simulation   : -0.60815E+06
+       running virial             :  0.16971E+10
+       difference                 :  -0.16977E+10
+ chemical potentials : 
+ number of samples :        29523
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)     0.55003444E+05     0.30320090E+04
+ ###### en(2)    -0.19137108E+06     0.11535080E+04
+ ###### pr(1)     0.36353891E+04     0.23710936E+03
+ ###### pr(2)     0.36356368E+04     0.23720325E+03
+ ###### de(1)     0.84865129E-02     0.54449623E-04
+ ###### de(2)     0.30899539E-02     0.15551165E-04
+   number of blocks        10000
+         0 135.6023   0.9589  51.5890   0.3648  10.6044   0.0750  10.6086   0.0750   0.0000   0.0000   0.0000   0.0000
+         1 191.7581   1.9178  72.9037   0.7291  14.9970   0.1500  15.0035   0.1500   0.0000   0.0000   0.0000   0.0000
+         2 271.1894   3.8360 103.0095   1.4571  21.2106   0.3000  21.2200   0.3002   0.0000   0.0000   0.0000   0.0000
+         3 383.5516   7.6741 145.4641   2.9104  30.0018   0.6003  30.0152   0.6005   0.0000   0.0000   0.0000   0.0000
+         4 542.5268  15.3573 205.2030   5.8087  42.4446   1.2015  42.4640   1.2020   0.0000   0.0000   0.0000   0.0000
+         5 767.2116  30.7624 288.1157  11.5524  60.0175   2.4065  60.0445   2.4076   0.0000   0.0000   0.0000   0.0000
+         6 ********  61.6837 404.1288  22.9530  85.0091   4.8282  85.0475   4.8304   0.0000   0.0000   0.0000   0.0000
+         7 ******** 124.0397 563.4638  45.4052 120.5852   9.7170 120.6395   9.7214   0.0000   0.0000   0.0000   0.0000
+         8 ******** 250.8263 775.4419  88.9493 171.5382  19.6768 171.6158  19.6857   0.0000   0.0000   0.0000   0.0000
+         9 ******** 512.9552 ******** 171.5162 241.6401  40.2733 241.7844  40.2974   0.0000   0.0000   0.0000   0.0000
+        10 ******** ******** ******** 363.2301 336.3731  84.0933 336.5328  84.1332   0.0001   0.0000   0.0000   0.0000
+        11 ******** ******** 952.0370 388.6674 423.1849 172.7645 423.3382 172.8271   0.0000   0.0000   0.0000   0.0000
+        12 ******** ******** 886.1695 626.6165 632.3887 447.1664 632.6982 447.3852   0.0001   0.0001   0.0000   0.0000
+ --- temp 250. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       256 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       256
+  Temperature                                :   250.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    31.488
+  Density box 1                              :     0.004
+  Box 2 length                               :    31.488
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+ box :   2
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+  Start equilibration 
+ ======>> Done          200  out of         1000         122         134
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.94 attempts:    4227 succes:    3976
+ Max. vol. chan. set to:  0.005 (old :  0.010)
+ Frac. acc.: 0.19 attempts:    1399 succes:     262
+ ======>> Done          400  out of         1000          67         189
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.92 attempts:    4166 succes:    3845
+ Max. vol. chan. set to:  0.003 (old :  0.005)
+ Frac. acc.: 0.23 attempts:    1372 succes:     316
+ ======>> Done          600  out of         1000          38         218
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.89 attempts:    4254 succes:    3768
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.44 attempts:    1406 succes:     621
+ ======>> Done          800  out of         1000          21         235
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.81 attempts:    4136 succes:    3364
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.50 attempts:    1439 succes:     715
+ ======>> Done         1000  out of         1000          19         237
+ Max. displ. set to      :  0.665 (old :  0.456)
+ Frac. acc.: 0.73 attempts:    4146 succes:    3027
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:    1423 succes:     701
+ Number of att. to displ. a part.  :      20929
+ success:      17980(= 85.91%)
+ Number of att. to chan. volume    :       7039
+ success:       2615(= 37.15%)
+ Number of att. to exchange part.  :      21008
+ success:        853(=  4.06%)
+ Number of att. to rotate chain    :      21024
+ success:       7558(= 35.95%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   :  -2150.81073
+       running energy             : -0.80977E+08
+       difference                 :   0.80975E+08
+ Total virial end of simulation   : -0.67174E+04
+       running virial             :  0.17949E+10
+       difference                 :  -0.17949E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             :  0.32275E+08
+       difference                 :  -0.32693E+08
+ Total virial end of simulation   : -0.60378E+06
+       running virial             :  0.13497E+10
+       difference                 :  -0.13503E+10
+ chemical potentials : 
+ number of samples :         4354
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000          21         235
+ Max. displ. set to      :  0.822 (old :  0.665)
+ Frac. acc.: 0.62 attempts:   42158 succes:   26037
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:   14200 succes:    6954
+ ======>> Done         4000  out of        10000          23         233
+ Max. displ. set to      :  0.899 (old :  0.822)
+ Frac. acc.: 0.55 attempts:   42198 succes:   23073
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:   13992 succes:    6834
+ ======>> Done         6000  out of        10000          25         231
+ Max. displ. set to      :  0.938 (old :  0.899)
+ Frac. acc.: 0.52 attempts:   42063 succes:   21941
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13727 succes:    6570
+ ======>> Done         8000  out of        10000          24         232
+ Max. displ. set to      :  0.960 (old :  0.938)
+ Frac. acc.: 0.51 attempts:   42188 succes:   21605
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.50 attempts:   13958 succes:    6925
+ ======>> Done        10000  out of        10000          35         221
+ Max. displ. set to      :  0.968 (old :  0.960)
+ Frac. acc.: 0.50 attempts:   42342 succes:   21351
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   14109 succes:    6841
+ Number of att. to displ. a part.  :     210949
+ success:     114007(= 54.04%)
+ Number of att. to chan. volume    :      69986
+ success:      34124(= 48.76%)
+ Number of att. to exchange part.  :     210025
+ success:       3252(=  1.55%)
+ Number of att. to rotate chain    :     209040
+ success:      60715(= 29.04%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   :  -6847.93018
+       running energy             : -0.11075E+09
+       difference                 :   0.11074E+09
+ Total virial end of simulation   : -0.12427E+05
+       running virial             :  0.26647E+10
+       difference                 :  -0.26648E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             :  0.61971E+08
+       difference                 :  -0.62359E+08
+ Total virial end of simulation   : -0.60898E+06
+       running virial             :  0.18211E+10
+       difference                 :  -0.18217E+10
+ chemical potentials : 
+ number of samples :        46486
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.43546958E+07     0.20525960E+06
+ ###### en(2)     0.20257736E+06     0.89104291E+04
+ ###### pr(1)     0.20307025E+05     0.46532978E+03
+ ###### pr(2)     0.20306492E+05     0.46528586E+03
+ ###### de(1)     0.63028819E-03     0.30670355E-04
+ ###### de(2)     0.89436411E-02     0.35087138E-04
+   number of blocks        10000
+         0 ********  64.9153 398.5064   2.8180  20.8112   0.1472  20.8093   0.1472   0.0000   0.0000   0.0000   0.0000
+         1 ******** 129.4953 563.5725   5.6363  29.4320   0.2943  29.4292   0.2943   0.0000   0.0000   0.0000   0.0000
+         2 ******** 258.0183 797.0502  11.2742  41.6265   0.5888  41.6225   0.5887   0.0000   0.0000   0.0000   0.0000
+         3 ******** 512.5981 ********  22.5557  58.8796   1.1781  58.8739   1.1779   0.0000   0.0000   0.0000   0.0000
+         4 ******** ******** ********  45.1416  83.3009   2.3580  83.2925   2.3578   0.0000   0.0000   0.0000   0.0000
+         5 ******** ******** ********  90.3572 117.7976   4.7233 117.7848   4.7227   0.0000   0.0000   0.0000   0.0000
+         6 ******** ******** ******** 181.2298 166.8528   9.4766 166.8341   9.4755   0.0000   0.0000   0.0000   0.0000
+         7 ******** ******** ******** 364.5414 236.7109  19.0747 236.6829  19.0725   0.0000   0.0000   0.0000   0.0000
+         8 ******** ******** ******** 737.7641 336.8199  38.6359 336.7828  38.6316   0.0000   0.0000   0.0000   0.0000
+         9 ******** ******** ******** ******** 476.0482  79.3414 476.0368  79.3395   0.0000   0.0000   0.0000   0.0000
+        10 ******** ******** ******** ******** 671.1493 167.7873 671.0445 167.7611   0.0000   0.0000   0.0000   0.0000
+        11 ******** ******** ******** ******** 923.3567 376.9588 923.1740 376.8842   0.0000   0.0000   0.0000   0.0000
+        12 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0000   0.0000   0.0000
+ --- temp 310. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       256 particles placed on a lattice
+  Number of equilibration cycles             :      1000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       256
+  Temperature                                :   310.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    31.488
+  Density box 1                              :     0.004
+  Box 2 length                               :    31.488
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+ box :   2
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+  Start equilibration 
+ ======>> Done          200  out of         1000          84         172
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.94 attempts:    4253 succes:    3983
+ Max. vol. chan. set to:  0.005 (old :  0.010)
+ Frac. acc.: 0.20 attempts:    1349 succes:     267
+ ======>> Done          400  out of         1000          64         192
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.93 attempts:    4211 succes:    3915
+ Max. vol. chan. set to:  0.003 (old :  0.005)
+ Frac. acc.: 0.25 attempts:    1432 succes:     362
+ ======>> Done          600  out of         1000          35         221
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.91 attempts:    4199 succes:    3819
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.49 attempts:    1338 succes:     651
+ ======>> Done          800  out of         1000          41         215
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.84 attempts:    4186 succes:    3512
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.46 attempts:    1422 succes:     650
+ ======>> Done         1000  out of         1000          43         213
+ Max. displ. set to      :  0.683 (old :  0.456)
+ Frac. acc.: 0.77 attempts:    4105 succes:    3143
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.50 attempts:    1364 succes:     687
+ Number of att. to displ. a part.  :      20954
+ success:      18372(= 87.68%)
+ Number of att. to chan. volume    :       6905
+ success:       2617(= 37.90%)
+ Number of att. to exchange part.  :      21087
+ success:       1069(=  5.07%)
+ Number of att. to rotate chain    :      21054
+ success:       8742(= 41.52%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : -10442.33771
+       running energy             : -0.82711E+08
+       difference                 :   0.82701E+08
+ Total virial end of simulation   :  0.14904E+05
+       running virial             :  0.19038E+10
+       difference                 :  -0.19038E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             :  0.34097E+08
+       difference                 :  -0.34429E+08
+ Total virial end of simulation   : -0.50715E+06
+       running virial             :  0.14259E+10
+       difference                 :  -0.14265E+10
+ chemical potentials : 
+ number of samples :         4127
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000          44         212
+ Max. displ. set to      :  0.925 (old :  0.683)
+ Frac. acc.: 0.68 attempts:   42056 succes:   28470
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.50 attempts:   14089 succes:    7017
+ ======>> Done         4000  out of        10000          45         211
+ Max. displ. set to      :  1.081 (old :  0.925)
+ Frac. acc.: 0.58 attempts:   42130 succes:   24610
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:   13992 succes:    6851
+ ======>> Done         6000  out of        10000          32         224
+ Max. displ. set to      :  1.158 (old :  1.081)
+ Frac. acc.: 0.54 attempts:   42192 succes:   22598
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13876 succes:    6598
+ ======>> Done         8000  out of        10000          37         219
+ Max. displ. set to      :  1.199 (old :  1.158)
+ Frac. acc.: 0.52 attempts:   42099 succes:   21800
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13859 succes:    6721
+ ======>> Done        10000  out of        10000          52         204
+ Max. displ. set to      :  1.206 (old :  1.199)
+ Frac. acc.: 0.50 attempts:   42192 succes:   21212
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13965 succes:    6661
+ Number of att. to displ. a part.  :     210669
+ success:     118690(= 56.34%)
+ Number of att. to chan. volume    :      69781
+ success:      33848(= 48.51%)
+ Number of att. to exchange part.  :     210003
+ success:       5223(=  2.49%)
+ Number of att. to rotate chain    :     209547
+ success:      76982(= 36.74%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : -16824.15820
+       running energy             : -0.13008E+09
+       difference                 :   0.13006E+09
+ Total virial end of simulation   : -0.32569E+05
+       running virial             :  0.33665E+10
+       difference                 :  -0.33665E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             :  0.81160E+08
+       difference                 :  -0.81485E+08
+ Total virial end of simulation   : -0.42503E+06
+       running virial             :  0.22091E+10
+       difference                 :  -0.22095E+10
+ chemical potentials : 
+ number of samples :        42445
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.25964473E+07     0.64850914E+05
+ ###### en(2)     0.27589550E+06     0.15209606E+05
+ ###### pr(1)     0.23894160E+05     0.75490342E+03
+ ###### pr(2)     0.23892564E+05     0.75513000E+03
+ ###### de(1)     0.11332734E-02     0.33904361E-04
+ ###### de(2)     0.83728346E-02     0.40325742E-04
+   number of blocks        10000
+         0 ********  20.5097 680.2283   4.8102  33.7620   0.2387  33.7721   0.2388   0.0000   0.0000   0.0000   0.0000
+         1 ********  40.8931 961.9941   9.6209  47.7479   0.4775  47.7624   0.4777   0.0000   0.0000   0.0000   0.0000
+         2 ********  81.3956 ********  19.2446  67.5315   0.9552  67.5521   0.9555   0.0000   0.0000   0.0000   0.0000
+         3 ******** 161.4451 ********  38.5016  95.5220   1.9112  95.5514   1.9118   0.0000   0.0000   0.0000   0.0000
+         4 ******** 318.1978 ********  77.0534 135.1410   3.8254 135.1827   3.8266   0.0000   0.0000   0.0000   0.0000
+         5 ******** 618.3112 ******** 154.3269 191.1062   7.6627 191.1664   7.6651   0.0000   0.0000   0.0000   0.0000
+         6 ******** ******** ******** 309.5093 270.6908  15.3742 270.7758  15.3790   0.0000   0.0000   0.0000   0.0000
+         7 ******** ******** ******** 622.5238 383.9875  30.9426 384.1105  30.9525   0.0000   0.0000   0.0000   0.0000
+         8 ******** ******** ******** ******** 546.3914  62.6754 546.5714  62.6960   0.0000   0.0000   0.0000   0.0000
+         9 ******** ******** ******** ******** 772.7492 128.7915 773.0261 128.8377   0.0000   0.0000   0.0000   0.0000
+        10 ******** ******** ******** ******** ******** 272.0875 ******** 272.1555   0.0000   0.0000   0.0000   0.0000
+        11 ******** ******** ******** ******** ******** 613.4490 ******** 613.6012   0.0000   0.0000   0.0000   0.0000
+        12 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0000   0.0000   0.0000
+ --- temp 310. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       256 particles placed on a lattice
+  Number of equilibration cycles             :      5000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       256
+  Temperature                                :   310.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    31.488
+  Density box 1                              :     0.004
+  Box 2 length                               :    31.488
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+ box :   2
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+  Start equilibration 
+ ======>> Done         1000  out of         5000          37         219
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.95 attempts:   21055 succes:   19957
+ Max. vol. chan. set to:  0.005 (old :  0.010)
+ Frac. acc.: 0.14 attempts:    6906 succes:     985
+ ======>> Done         2000  out of         5000          41         215
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.92 attempts:   21004 succes:   19388
+ Max. vol. chan. set to:  0.003 (old :  0.005)
+ Frac. acc.: 0.25 attempts:    6942 succes:    1720
+ ======>> Done         3000  out of         5000          37         219
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.89 attempts:   21177 succes:   18949
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.45 attempts:    7103 succes:    3198
+ ======>> Done         4000  out of         5000          41         215
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.84 attempts:   21043 succes:   17715
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:    7036 succes:    3413
+ ======>> Done         5000  out of         5000          44         212
+ Max. displ. set to      :  0.683 (old :  0.456)
+ Frac. acc.: 0.77 attempts:   21088 succes:   16269
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:    6927 succes:    3307
+ Number of att. to displ. a part.  :     105367
+ success:      92278(= 87.58%)
+ Number of att. to chan. volume    :      34914
+ success:      12623(= 36.15%)
+ Number of att. to exchange part.  :     104986
+ success:       3336(=  3.18%)
+ Number of att. to rotate chain    :     104733
+ success:      39398(= 37.62%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : -12520.00913
+       running energy             : -0.11073E+09
+       difference                 :   0.11072E+09
+ Total virial end of simulation   : -0.21451E+05
+       running virial             :  0.27458E+10
+       difference                 :  -0.27458E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             :  0.61888E+08
+       difference                 :  -0.62224E+08
+ Total virial end of simulation   : -0.30868E+06
+       running virial             :  0.18756E+10
+       difference                 :  -0.18759E+10
+ chemical potentials : 
+ number of samples :        21199
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000          43         213
+ Max. displ. set to      :  0.928 (old :  0.683)
+ Frac. acc.: 0.68 attempts:   42102 succes:   28587
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:   13853 succes:    6741
+ ======>> Done         4000  out of        10000          46         210
+ Max. displ. set to      :  1.094 (old :  0.928)
+ Frac. acc.: 0.59 attempts:   41995 succes:   24754
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13870 succes:    6700
+ ======>> Done         6000  out of        10000          53         203
+ Max. displ. set to      :  1.173 (old :  1.094)
+ Frac. acc.: 0.54 attempts:   42033 succes:   22534
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   14112 succes:    6825
+ ======>> Done         8000  out of        10000          48         208
+ Max. displ. set to      :  1.231 (old :  1.173)
+ Frac. acc.: 0.52 attempts:   42479 succes:   22278
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.50 attempts:   14177 succes:    7068
+ ======>> Done        10000  out of        10000          64         192
+ Max. displ. set to      :  1.226 (old :  1.231)
+ Frac. acc.: 0.50 attempts:   41904 succes:   20875
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.47 attempts:   13808 succes:    6487
+ Number of att. to displ. a part.  :     210513
+ success:     119028(= 56.54%)
+ Number of att. to chan. volume    :      69820
+ success:      33821(= 48.44%)
+ Number of att. to exchange part.  :     209953
+ success:       5212(=  2.48%)
+ Number of att. to rotate chain    :     209714
+ success:      78817(= 37.58%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : -21010.20658
+       running energy             : -0.15170E+09
+       difference                 :   0.15168E+09
+ Total virial end of simulation   : -0.71255E+05
+       running virial             :  0.40359E+10
+       difference                 :  -0.40360E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             :  0.10274E+09
+       difference                 :  -0.10304E+09
+ Total virial end of simulation   : -0.44227E+06
+       running virial             :  0.25234E+10
+       difference                 :  -0.25238E+10
+ chemical potentials : 
+ number of samples :        40876
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.27443773E+07     0.68540971E+05
+ ###### en(2)     0.39498375E+06     0.14684919E+05
+ ###### pr(1)     0.29530187E+05     0.69558069E+03
+ ###### pr(2)     0.29528445E+05     0.69535884E+03
+ ###### de(1)     0.12742728E-02     0.34281497E-04
+ ###### de(2)     0.84168867E-02     0.47383603E-04
+   number of blocks        10000
+         0 ********  21.6767 656.7624   4.6442  31.1089   0.2200  31.0989   0.2199   0.0000   0.0000   0.0000   0.0000
+         1 ********  43.2517 928.7690   9.2886  43.9957   0.4400  43.9814   0.4399   0.0000   0.0000   0.0000   0.0000
+         2 ********  86.2251 ********  18.5792  62.2243   0.8802  62.2043   0.8799   0.0000   0.0000   0.0000   0.0000
+         3 ******** 171.4850 ********  37.1676  88.0148   1.7610  87.9867   1.7604   0.0000   0.0000   0.0000   0.0000
+         4 ******** 339.3006 ********  74.3739 124.5202   3.5248 124.4802   3.5237   0.0000   0.0000   0.0000   0.0000
+         5 ******** 666.6395 ******** 148.7335 176.0742   7.0599 176.0189   7.0577   0.0000   0.0000   0.0000   0.0000
+         6 ******** ******** ******** 298.1654 249.3968  14.1648 249.3182  14.1603   0.0000   0.0000   0.0000   0.0000
+         7 ******** ******** ******** 599.3497 353.8091  28.5107 353.6939  28.5015   0.0000   0.0000   0.0000   0.0000
+         8 ******** ******** ******** ******** 503.5131  57.7569 503.3443  57.7376   0.0000   0.0000   0.0000   0.0000
+         9 ******** ******** ******** ******** 710.4103 118.4017 710.2707 118.3785   0.0000   0.0000   0.0000   0.0000
+        10 ******** ******** ******** ******** 995.6018 248.9004 995.3455 248.8364   0.0000   0.0000   0.0000   0.0000
+        11 ******** ******** ******** ******** ******** 542.2236 ******** 541.8590   0.0000   0.0000   0.0000   0.0000
+        12 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0000   0.0000   0.0000
+ --- temp 400. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       256 particles placed on a lattice
+  Number of equilibration cycles             :      5000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       256
+  Temperature                                :   400.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    31.488
+  Density box 1                              :     0.004
+  Box 2 length                               :    31.488
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+ box :   2
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+  Start equilibration 
+ ======>> Done         1000  out of         5000         205          51
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.96 attempts:   20848 succes:   20117
+ Max. vol. chan. set to:  0.005 (old :  0.010)
+ Frac. acc.: 0.15 attempts:    7032 succes:    1086
+ ======>> Done         2000  out of         5000         188          68
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.95 attempts:   20926 succes:   19848
+ Max. vol. chan. set to:  0.003 (old :  0.005)
+ Frac. acc.: 0.28 attempts:    7000 succes:    1931
+ ======>> Done         3000  out of         5000         198          58
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.92 attempts:   21034 succes:   19431
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.44 attempts:    7028 succes:    3071
+ ======>> Done         4000  out of         5000         179          77
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.89 attempts:   21014 succes:   18747
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.46 attempts:    7128 succes:    3304
+ ======>> Done         5000  out of         5000         167          89
+ Max. displ. set to      :  0.683 (old :  0.456)
+ Frac. acc.: 0.85 attempts:   21191 succes:   18022
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.46 attempts:    7119 succes:    3298
+ Number of att. to displ. a part.  :     105013
+ success:      96165(= 91.57%)
+ Number of att. to chan. volume    :      35307
+ success:      12690(= 35.94%)
+ Number of att. to exchange part.  :     104979
+ success:      14549(= 13.86%)
+ Number of att. to rotate chain    :     104701
+ success:      55072(= 52.60%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             : -0.36934E+08
+       difference                 :   0.36770E+08
+ Total virial end of simulation   : -0.28845E+06
+       running virial             :  0.31486E+10
+       difference                 :  -0.31489E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : -57405.15863
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             : -0.11600E+08
+       difference                 :   0.11543E+08
+ Total virial end of simulation   : -0.70266E+05
+       running virial             :  0.26874E+10
+       difference                 :  -0.26874E+10
+ chemical potentials : 
+ number of samples :        21009
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000         188          68
+ Max. displ. set to      :  1.025 (old :  0.683)
+ Frac. acc.: 0.78 attempts:   41939 succes:   32525
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.47 attempts:   13939 succes:    6487
+ ======>> Done         4000  out of        10000         215          41
+ Max. displ. set to      :  1.381 (old :  1.025)
+ Frac. acc.: 0.67 attempts:   41884 succes:   28218
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.47 attempts:   14017 succes:    6576
+ ======>> Done         6000  out of        10000         195          61
+ Max. displ. set to      :  1.638 (old :  1.381)
+ Frac. acc.: 0.59 attempts:   42280 succes:   25065
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.47 attempts:   14084 succes:    6643
+ ======>> Done         8000  out of        10000         206          50
+ Max. displ. set to      :  1.865 (old :  1.638)
+ Frac. acc.: 0.57 attempts:   42172 succes:   24014
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.47 attempts:   14100 succes:    6598
+ ======>> Done        10000  out of        10000         195          61
+ Max. displ. set to      :  1.836 (old :  1.865)
+ Frac. acc.: 0.49 attempts:   42128 succes:   20736
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13950 succes:    6700
+ Number of att. to displ. a part.  :     210403
+ success:     130558(= 62.05%)
+ Number of att. to chan. volume    :      70090
+ success:      33004(= 47.09%)
+ Number of att. to exchange part.  :     210031
+ success:      25140(= 11.97%)
+ Number of att. to rotate chain    :     209476
+ success:     107413(= 51.28%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   : ************
+       running energy             :  0.54693E+08
+       difference                 :  -0.54920E+08
+ Total virial end of simulation   : -0.28362E+06
+       running virial             :  0.55276E+10
+       difference                 :  -0.55279E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : -23316.64476
+       running energy             : -0.10342E+09
+       difference                 :   0.10339E+09
+ Total virial end of simulation   : -0.37937E+05
+       running virial             :  0.54265E+10
+       difference                 :  -0.54265E+10
+ chemical potentials : 
+ number of samples :        41808
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)     0.66204834E+05     0.31738864E+05
+ ###### en(2)    -0.10134092E+07     0.11478995E+06
+ ###### pr(1)     0.44964945E+05     0.17940273E+04
+ ###### pr(2)     0.44966163E+05     0.17940456E+04
+ ###### de(1)     0.59511682E-02     0.11569502E-03
+ ###### de(2)     0.20986427E-02     0.12435384E-03
+   number of blocks        10000
+         0 ********  10.0377 ********  36.3034  80.2354   0.5674  80.2362   0.5674   0.0000   0.0000   0.0000   0.0000
+         1 ********  20.0770 ********  72.5775 113.4748   1.1349 113.4757   1.1349   0.0000   0.0000   0.0000   0.0000
+         2 ********  40.1609 ******** 145.0772 160.4930   2.2702 160.4941   2.2702   0.0000   0.0000   0.0000   0.0000
+         3 ********  80.3510 ******** 289.8102 227.0162   4.5421 227.0175   4.5422   0.0000   0.0000   0.0000   0.0000
+         4 ******** 160.8206 ******** 578.7808 321.1768   9.0915 321.1786   9.0916   0.0000   0.0000   0.0000   0.0000
+         5 ******** 322.3578 ******** ******** 454.2745  18.2147 454.2722  18.2147   0.0000   0.0000   0.0000   0.0000
+         6 ******** 646.6488 ******** ******** 643.4629  36.5462 643.4599  36.5461   0.0000   0.0000   0.0000   0.0000
+         7 ******** ******** ******** ******** 912.8688  73.5611 912.8653  73.5608   0.0001   0.0000   0.0001   0.0000
+         8 ******** ******** ******** ******** ******** 149.0188 ******** 149.0182   0.0001   0.0000   0.0001   0.0000
+         9 ******** ******** ******** ******** ******** 307.1848 ******** 307.1733   0.0001   0.0000   0.0001   0.0000
+        10 ******** ******** ******** ******** ******** 656.1723 ******** 656.1344   0.0001   0.0000   0.0001   0.0000
+        11 ******** ******** ******** ******** ******** ******** ******** ********   0.0002   0.0001   0.0002   0.0001
+        12 ******** ******** ******** ******** ******** ******** ******** ********   0.0001   0.0001   0.0002   0.0001
+ --- temp 250. 
+ **************** MC_NPT ***************
+  ******** test random numbers ***********
+  i,ranf()            1  0.58763488673365771     
+  i,ranf()            2  0.32400260136660980     
+  i,ranf()            3  0.76451244704317067     
+  i,ranf()            4  0.75531803149860788     
+  i,ranf()            5  0.14257343930534644     
+  generate simple cubic lattice
+ Initialisation on lattice: 
+       256 particles placed on a lattice
+  Number of equilibration cycles             :      5000
+  Number of production cycles                :     10000
+  Sample frequency                           :         1
+
+  Number of att. to displ. a part. per cycle :        30
+  Maximum displacement                       :     0.090
+  Number of att. to change volume  per cycle :        10
+  Maximum change volume                      :     0.010
+  Number of att. to exch part.  per cycle    :        30
+
+
+  Number of particles                        :       256
+  Temperature                                :   250.000
+  Pressure                                   :     1.000
+  Density box 1                              :     0.004
+  Box 1 length                               :    31.488
+  Density box 1                              :     0.004
+  Box 2 length                               :    31.488
+
+  Model parameters: 
+     epsilon: *****
+     sigma  : 3.775
+     mass   : *****
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ Simulations with tail correction: 
+ Potential truncated at  Rc =:    14.000
+ Tail corrections:   energy =     -5.357 pressure     -0.044
+
+
+ box :   1
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+ box :   2
+ Total energy initial configuration :  0.47082E+06
+ Total virial initial configuration :  0.86959E+07
+  Start equilibration 
+ ======>> Done         1000  out of         5000          16         240
+ Max. displ. set to      :  0.135 (old :  0.090)
+ Frac. acc.: 0.94 attempts:   21029 succes:   19810
+ Max. vol. chan. set to:  0.005 (old :  0.010)
+ Frac. acc.: 0.14 attempts:    6963 succes:     955
+ ======>> Done         2000  out of         5000          26         230
+ Max. displ. set to      :  0.203 (old :  0.135)
+ Frac. acc.: 0.91 attempts:   21014 succes:   19135
+ Max. vol. chan. set to:  0.003 (old :  0.005)
+ Frac. acc.: 0.23 attempts:    7069 succes:    1644
+ ======>> Done         3000  out of         5000          23         233
+ Max. displ. set to      :  0.304 (old :  0.203)
+ Frac. acc.: 0.87 attempts:   20985 succes:   18283
+ Max. vol. chan. set to:  0.002 (old :  0.003)
+ Frac. acc.: 0.43 attempts:    7112 succes:    3075
+ ======>> Done         4000  out of         5000          20         236
+ Max. displ. set to      :  0.456 (old :  0.304)
+ Frac. acc.: 0.82 attempts:   21042 succes:   17255
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:    6971 succes:    3413
+ ======>> Done         5000  out of         5000          21         235
+ Max. displ. set to      :  0.662 (old :  0.456)
+ Frac. acc.: 0.73 attempts:   21025 succes:   15270
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:    7061 succes:    3435
+ Number of att. to displ. a part.  :     105095
+ success:      89753(= 85.40%)
+ Number of att. to chan. volume    :      35176
+ success:      12522(= 35.60%)
+ Number of att. to exchange part.  :     104953
+ success:       2213(=  2.11%)
+ Number of att. to rotate chain    :     104776
+ success:      32104(= 30.64%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   :  -2925.72375
+       running energy             : -0.94176E+08
+       difference                 :   0.94173E+08
+ Total virial end of simulation   : -0.13101E+05
+       running virial             :  0.21735E+10
+       difference                 :  -0.21735E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+       running energy             :  0.45436E+08
+       difference                 :  -0.45850E+08
+ Total virial end of simulation   : -0.52798E+06
+       running virial             :  0.15593E+10
+       difference                 :  -0.15598E+10
+ chemical potentials : 
+ number of samples :        23068
+ box 1 *******
+ box 2 *******
+
+  Start production 
+ ======>> Done         2000  out of        10000          25         231
+ Max. displ. set to      :  0.821 (old :  0.662)
+ Frac. acc.: 0.62 attempts:   42041 succes:   26063
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13939 succes:    6757
+ ======>> Done         4000  out of        10000          32         224
+ Max. displ. set to      :  0.919 (old :  0.821)
+ Frac. acc.: 0.56 attempts:   42297 succes:   23680
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   13983 succes:    6773
+ ======>> Done         6000  out of        10000          31         225
+ Max. displ. set to      :  0.935 (old :  0.919)
+ Frac. acc.: 0.51 attempts:   42256 succes:   21498
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:   13855 succes:    6828
+ ======>> Done         8000  out of        10000          28         228
+ Max. displ. set to      :  0.978 (old :  0.935)
+ Frac. acc.: 0.52 attempts:   42277 succes:   22102
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.49 attempts:   14175 succes:    6937
+ ======>> Done        10000  out of        10000          31         225
+ Max. displ. set to      :  0.961 (old :  0.978)
+ Frac. acc.: 0.49 attempts:   42236 succes:   20762
+ Max. vol. chan. set to:  0.002 (old :  0.002)
+ Frac. acc.: 0.48 attempts:   14046 succes:    6774
+ Number of att. to displ. a part.  :     211107
+ success:     114105(= 54.05%)
+ Number of att. to chan. volume    :      69998
+ success:      34069(= 48.67%)
+ Number of att. to exchange part.  :     210075
+ success:       3136(=  1.49%)
+ Number of att. to rotate chain    :     208820
+ success:      60678(= 29.06%)
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   1
+ Total energy end of simulation   :  -6168.89060
+       running energy             : -0.12299E+09
+       difference                 :   0.12299E+09
+ Total virial end of simulation   : -0.12206E+05
+       running virial             :  0.30197E+10
+       difference                 :  -0.30197E+10
+  ######### PROBLEMS ENERGY ################ 
+  ######### PROBLEMS VIRIAL ################ 
+ box :   2
+ Total energy end of simulation   : ************
+       running energy             :  0.74166E+08
+       difference                 :  -0.74578E+08
+ Total virial end of simulation   : -0.60845E+06
+       running virial             :  0.19959E+10
+       difference                 :  -0.19965E+10
+ chemical potentials : 
+ number of samples :        45351
+ box 1 *******
+ box 2 *******
+
+  ***** Calculate block averages ************
+   number of averages            6
+ block data     1 ********** ********** ********** ********** ********** **********
+ block data     2 ********** ********** ********** ********** ********** **********
+ block data     3 ********** ********** ********** ********** ********** **********
+ block data     4 ********** ********** ********** ********** ********** **********
+ block data     5 ********** ********** ********** ********** ********** **********
+ block data     6 ********** ********** ********** ********** ********** **********
+ block data     7 ********** ********** ********** ********** ********** **********
+ block data     8 ********** ********** ********** ********** ********** **********
+ block data     9 ********** ********** ********** ********** ********** **********
+ block data    10 ********** ********** ********** ********** ********** **********
+ block data    11 ********** ********** ********** ********** ********** **********
+ block data    12 ********** ********** ********** ********** ********** **********
+ block data    13 ********** ********** ********** ********** ********** **********
+ block data    14 ********** ********** ********** ********** ********** **********
+ block data    15 ********** ********** ********** ********** ********** **********
+ block data    16 ********** ********** ********** ********** ********** **********
+ block data    17 ********** ********** ********** ********** ********** **********
+ block data    18 ********** ********** ********** ********** ********** **********
+ block data    19 ********** ********** ********** ********** ********** **********
+ block data    20 ********** ********** ********** ********** ********** **********
+ ###### en(1)    -0.42019228E+07     0.15097759E+06
+ ###### en(2)     0.26676517E+06     0.89653512E+04
+ ###### pr(1)     0.23619864E+05     0.44594273E+03
+ ###### pr(2)     0.23619947E+05     0.44611293E+03
+ ###### de(1)     0.72432551E-03     0.28983727E-04
+ ###### de(2)     0.90169570E-02     0.35049242E-04
+   number of blocks        10000
+         0 ********  47.7481 400.9627   2.8354  19.9442   0.1410  19.9518   0.1411   0.0000   0.0000   0.0000   0.0000
+         1 ********  95.2571 567.0334   5.6709  28.2056   0.2821  28.2161   0.2822   0.0000   0.0000   0.0000   0.0000
+         2 ******** 189.8619 801.9289  11.3433  39.8917   0.5643  39.9065   0.5645   0.0000   0.0000   0.0000   0.0000
+         3 ******** 377.2223 ********  22.6931  56.4258   1.1290  56.4465   1.1294   0.0000   0.0000   0.0000   0.0000
+         4 ******** 746.4927 ********  45.4150  79.8283   2.2597  79.8581   2.2605   0.0000   0.0000   0.0000   0.0000
+         5 ******** ******** ********  90.9754 112.9373   4.5284 112.9786   4.5300   0.0000   0.0000   0.0000   0.0000
+         6 ******** ******** ******** 182.4267 159.9633   9.0853 160.0218   9.0886   0.0000   0.0000   0.0000   0.0000
+         7 ******** ******** ******** 366.8997 226.9170  18.2855 227.0030  18.2924   0.0000   0.0000   0.0000   0.0000
+         8 ******** ******** ******** 742.8926 322.9104  37.0404 323.0351  37.0547   0.0000   0.0000   0.0000   0.0000
+         9 ******** ******** ******** ******** 459.2151  76.5358 459.3762  76.5627   0.0000   0.0000   0.0000   0.0000
+        10 ******** ******** ******** ******** 657.2360 164.3090 657.6304 164.4076   0.0000   0.0000   0.0000   0.0000
+        11 ******** ******** ******** ******** 949.2941 387.5477 949.9395 387.8112   0.0001   0.0000   0.0000   0.0000
+        12 ******** ******** ******** ******** ******** 993.8163 ******** 994.2984   0.0001   0.0000   0.0000   0.0000
